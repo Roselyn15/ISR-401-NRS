@@ -1,0 +1,56 @@
+\section{Ficha del proyecto}
+
+\subsection{Nombre del sistema y organizaci\'on cliente}
+El sistema a desarrollar se denomina \textbf{Sistema de Gesti\'on para Restaurante con M\'odulo de Inteligencia Artificial} (en adelante, \emph{SGR-IA}). La organizaci\'on cliente es el \textbf{Restaurante Anaranjoa-UX}, ubicado en la ciudad de Quevedo, provincia de Los R\'ios, Ecuador. El proyecto se desarrolla en el marco de la asignatura Ingenier\'ia de Requerimientos (ISR-401) del programa Ingenier\'ia de Software de la Universidad T\'ecnica Estatal de Quevedo.
+
+\subsection{Problema u oportunidad}
+La operaci\'on de un restaurante concentra en un mismo turno la atenci\'on en sala, el registro de pedidos, la preparaci\'on en cocina, el control de insumos, la facturaci\'on y la atenci\'on de pedidos a domicilio. Cuando estos procesos se apoyan en registros manuales y en comunicaci\'on verbal, aparecen demoras en horas pico, susceptibilidad a errores en la transcripci\'on de pedidos y dificultad para consultar el estado real del inventario. La norma ISO/IEC/IEEE 29148:2018 exige identificar a las partes interesadas y establecer el l\'imite del sistema antes de definir requisitos \cite{iso29148}; en consecuencia, esta entrega se limita a acordar la visi\'on, el alcance, el contexto y la planificaci\'on de la elicitaci\'on, sin adelantar soluciones tecnol\'ogicas. La identificaci\'on de partes interesadas y la delimitaci\'on del contexto se tratan en los fundamentos de ingenier\'ia de requisitos \cite{pohl2025}, mientras que la selecci\'on de t\'ecnicas seg\'un la fuente y el tipo de conocimiento se sustenta en el syllabus IREB \cite{ireb2026}.
+
+\emph{Estado de validaci\'on:} el enunciado del problema se formul\'o a partir del dominio de negocio y ser\'a confirmado, corregido o descartado con el responsable de Anaranjoa-UX durante la primera sesi\'on de elicitaci\'on. Ninguna cifra operativa se presenta como dato medido de la organizaci\'on hasta contar con evidencia registrada.
+
+\subsection{Objetivo general}
+Caracterizar la operaci\'on real del Restaurante Anaranjoa-UX y delimitar un sistema de gesti\'on asistido por inteligencia artificial que integre pedidos, cocina, inventario y ventas, con supervisi\'on humana sobre las decisiones cr\'iticas, como base para la especificaci\'on de requisitos de las entregas posteriores del PFC.
+
+\subsection{Objetivos de negocio medibles}
+Los siguientes objetivos son metas acordadas para la elicita\'cion y el dise\~no; sus l\'ineas base se obtendr\'an de la observaci\'on y de los registros de la organizaci\'on:
+
+\begin{enumerate}[leftmargin=18pt,itemsep=4pt]
+    \item \textbf{Reducir el tiempo de registro de un pedido.} Obtener una reducci\'on de al menos 30\% del tiempo medio de registro respecto de la l\'inea base medida en la sesi\'on de observaci\'on, con el mismo n\'umero de personas en turno.
+    \item \textbf{Disminuir los errores de transcripci\'on de pedidos.} Alcanzar una tasa de errores por pedido igual o inferior a 2\% en una muestra de al menos 50 pedidos posteriores a la puesta en marcha del prototipo.
+    \item \textbf{Disponer de informaci\'on de inventario actualizada.} Lograr que el 100\% de los insumos cr\'iticos tenga registro de entrada y salida en el sistema, con al menos una actualizaci\'on por turno y una conciliaci\'on semanal contra el conteo f\'isico.
+    \item \textbf{Mejorar la trazabilidad de ventas.} Generar un resumen diario de ventas y productos m\'as solicitados sin transcripci\'on manual adicional, disponible para el responsable antes del cierre de caja.
+\end{enumerate}
+
+\section{Alcance del sistema}
+
+\subsection{Dentro del alcance}
+\begin{itemize}[leftmargin=18pt,itemsep=2pt]
+    \item Registro y seguimiento de pedidos de sala y de entrega a domicilio, con estados visibles para sala y cocina.
+    \item Gesti\'on de reservas y de solicitudes especiales de los clientes, con registro de la informaci\'on relevante para cocina.
+    \item Control de inventario de insumos, entradas, salidas, alertas de reposici\'on y conciliaci\'on semanal.
+    \item Registro de compras y de proveedores, con soporte para la comparaci\'on de precios.
+    \item Registro de ventas, medios de pago y generaci\'on de res\'umenes diarios y semanales.
+    \item M\'odulo de inteligencia artificial para sugerencias de reposici\'on y de productos complementarios, con explicaci\'on de cada sugerencia y confirmaci\'on humana obligatoria.
+    \item Gesti\'on de usuarios por rol y respaldo de la informaci\'on operativa.
+\end{itemize}
+
+\subsection{Fuera del alcance}
+\begin{itemize}[leftmargin=18pt,itemsep=2pt]
+    \item Desarrollo de una aplicaci\'on m\'ovil propia para clientes o de un marketplace de delivery externo.
+    \item Integraci\'on con pasarelas de pago, bancos o con el sistema de facturaci\'on electr\'onica del SRI.
+    \item Automatizaci\'on de la preparaci\'on de alimentos o sustituci\'on del criterio del personal de cocina en decisiones de higiene, alergias o seguridad alimentaria.
+    \item Migraci\'on de informaci\'on hist\'orica anterior al inicio del proyecto.
+    \item Capacitaci\'on presencial extensiva y soporte t\'ecnico posterior a la entrega acad\'emica.
+\end{itemize}
+
+\section{Restricciones principales}
+\begin{itemize}[leftmargin=18pt,itemsep=2pt]
+    \item \textbf{Restricci\'on legal y \'etica:} el tratamiento de datos del personal y de los clientes se rige por la Ley Org\'anica de Protecci\'on de Datos Personales del Ecuador \cite{lopdp2021} y por el C\'odigo de \'Etica de la ACM \cite{acm2018}. No se publican datos personales, grabaciones ni documentos firmados en el repositorio p\'ublico.
+    \item \textbf{Restricci\'on de supervisi\'on:} las recomendaciones del m\'odulo de inteligencia artificial son orientativas; la decisi\'on final permanece en una persona responsable.
+    \item \textbf{Restricci\'on econ\'omica y tecnol\'ogica:} el prototipo se desarrolla con recursos acad\'emicos, sin licencias de pago y con dependencia de la conectividad disponible en el local.
+    \item \textbf{Restricci\'on de tiempo:} el cronograma de la asignatura finaliza en la semana 17 del SPA 2026--2027; la gesti\'on del trabajo se organiza seg\'un los principios del PMBOK \cite{pmbok2021}.
+    \item \textbf{Restricci\'on de Alcance:} la entrega 1 no incluye requisitos detallados ni dise\~no de soluci\'on; esos productos se derivan de la elicitaci\'on planificada en la secci\'on~3.
+\end{itemize}
+
+\section{Declaraci\'on de uso de inteligencia artificial}
+Se utiliz\'o asistencia de inteligencia artificial como apoyo para la revisi\'on de redacci\'on y la verificaci\'on de la compilaci\'on \LaTeX{}. Herramienta: asistente integrado del entorno OpenCode y revisor autom\'atico independiente; versi\'on: sesi\'on de 19 de noviembre de 2026. Prop\'osito: detectar incoherencias formales y comprobar que el documento regenera el PDF con \texttt{pdflatex}, \texttt{biber} y dos pasadas adicionales de \texttt{pdflatex}. Verificaci\'on: cotejo manual de cada afirmaci\'on contra las fuentes citadas y ejecuci\'on local del procedimiento de compilaci\'on descrito en el archivo \texttt{README.md}. El contenido t\'ecnico y las decisiones de alcance son de autor\'ia del equipo.
