@@ -1,0 +1,69 @@
+\section{Contexto del sistema}
+
+\subsection{Límite del sistema y contexto propuesto}
+El límite del Sistema de Gestión para Restaurante con IA (SGR-IA) se ubica en la interfaz entre la operación de sala, cocina, caja e inventario de El Balcón Restaurant y las personas que interactúan con ella. La figura~\ref{fig:contexto} presenta las entidades externas y los flujos de información identificados a partir del dominio del negocio y de cuatro entrevistas de campo aplicadas con la guía corregida de 45 preguntas. La norma ISO/IEC/IEEE 29148:2018 requiere identificar a las partes interesadas y definir el límite del sistema antes de especificar requisitos \cite{iso29148}; en coherencia con ese requerimiento, el diagrama distingue las entidades que interactúan con el sistema de los sistemas externos que quedan fuera de alcance, como la facturación electrónica.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.90\linewidth]{figuras/contexto.png}
+\caption{Contexto del SGR-IA y entidades externas.}
+\label{fig:contexto}
+\end{figure}
+
+\subsection{Participantes de campo y trato de la información}
+Las transcripciones corregidas \texttt{ENTR-01} a \texttt{ENTR-04} son evidencia de campo obtenida por el equipo en El Balcón Restaurant, con consentimiento informado previo. Usan únicamente códigos de participante y no contienen nombres, cédulas, teléfonos ni correos. Por decisión de custodia, las transcripciones y grabaciones permanecen en carpeta privada `@uteq.edu.ec`; en este documento solo se usan paráfrasis anónimas, sin citas textuales, porque `ENTR-02` no autorizó citar frases literalmente ni depositar sus datos en un repositorio abierto. La fecha de cada sesión y la duración real de las grabaciones constan como pendientes en el manifiesto y no se inventan.
+
+\begin{table}[htbp]
+\centering
+\footnotesize
+\begin{tabularx}{\linewidth}{|p{1.7cm}|X|p{2.0cm}|p{2.5cm}|}
+\hline
+\thdr{Código} & \thdr{Rol declarado} & \thdr{Antigüedad} & \thdr{Volumen informado (normal / alto)}\\
+\hline
+ENTR-01 & Recepción y apoyo en cocina & 1 año 1 mes & 25--30 / 50 personas\\
+\hline
+ENTR-02 & Ayudante de cocina & 2 años & 25 / 35 platos\\
+\hline
+ENTR-03 & Auxiliar de cocina y despacho & 3 años & 45 / 85 pedidos\\
+\hline
+ENTR-04 & Caja & 3 años & 60 / 120 pedidos\\
+\hline
+\end{tabularx}
+\caption{Participantes de campo y volúmenes informados por rol.}
+\label{tab:participantes}
+\end{table}
+
+Las cifras de la tabla~\ref{tab:participantes} no son homogéneas: cada persona mide una unidad distinta (personas, platos o pedidos) en días diferentes. Por ello no se promedian ni se presentan como un dato único de la organización; quedan sujetas a confirmación con el responsable. Las transcripciones no incluyen la fecha de la sesión ni la duración real de la grabación, de modo que esos campos figuran como pendientes en el manifiesto y no se inventan.
+
+\subsection{Ocho perspectivas de análisis del contexto}
+La tabla~\ref{tab:perspectivas} actualiza las ocho perspectivas con los hallazgos de campo disponibles. Cuando la información solo proviene de la propuesta inicial se conserva la etiqueta \emph{propuesta}; cuando proviene de las entrevistas se indica el código del participante. Ninguna celda afirma una meta cuantitativa acordada con el responsable, porque esa validación aún no se ha realizado.
+
+\begin{table}[htbp]
+\centering
+\footnotesize
+\begin{tabularx}{\linewidth}{|p{2.5cm}|X|p{2.0cm}|}
+\hline
+\thdr{Perspectiva} & \thdr{Hallazgo de campo o propuesta} & \thdr{Estado}\\
+\hline
+Objetivos de negocio & Reducir espera y errores; dolencias: cierre de caja de unas 1--2 h (ENTR-04), conteo de insumos (ENTR-03) y avisos de días sin servicio (ENTR-01). & Parcial\\
+\hline
+Usuarios y roles & Recepción y cocina (ENTR-01), ayudante de cocina (ENTR-02), cocina y despacho (ENTR-03), caja (ENTR-04). Deciden la jefa o el encargado; equipo de 3 a 7 personas. & Campo\\
+\hline
+Tareas y flujos & Comanda en papel, cocina y caja (ENTR-01/04); domicilio por WhatsApp y moto (ENTR-01/03); cambios comunicados de palabra y no anotados (ENTR-03/04). & Campo\\
+\hline
+Información y datos & Cuaderno, libreta, pizarra y planilla final; errores por letra poco clara y pedidos modificados sin registro (ENTR-04); stock no se actualiza de inmediato (ENTR-03). & Campo\\
+\hline
+Funciones del sistema & Registro de pedidos, reservas, inventario, caja y reportes; facturación electrónica permanece fuera del límite (sección~1). & Propuesta\\
+\hline
+Comportamiento y estados & Pedido tomado, en cocina, listo y cobrado; domicilio tomado, preparado, en reparto y entregado (ENTR-03/04). Hoy no hay estados informáticos. & Parcial\\
+\hline
+Calidad y atributos & Errores «pocas veces al mes» (ENTR-01/02/04); la espera y el cobro concentran las molestias; se requiere cuidado con datos de personal y clientes (ENTR-01/03/04). & Campo\\
+\hline
+Restricciones e interfaces & WhatsApp, efectivo, transferencia y tarjeta, reparto en moto, conectividad y SRI; seis proveedores (ENTR-03); recetas no escritas (ENTR-03/04). & Parcial\\
+\hline
+\end{tabularx}
+\caption{Ocho perspectivas del contexto actualizadas con entrevistas de campo.}
+\label{tab:perspectivas}
+\end{table}
+
+La tabla~\ref{tab:perspectivas} será revisada con el responsable de la organización para cerrar metas medibles, estados autorizados y prioridades. Las celdas marcadas como \emph{parcial} o \emph{propuesta} no deben interpretarse como acuerdos validados.

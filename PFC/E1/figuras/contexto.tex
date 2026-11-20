@@ -1,0 +1,37 @@
+\documentclass[crop,tikz,border=8pt]{standalone}
+\usepackage[utf8]{inputenc}
+\usetikzlibrary{arrows.meta,calc}
+
+\begin{document}
+\begin{tikzpicture}[
+  sys/.style={draw=teal!70!black,fill=teal!12,rounded corners,align=center,
+              text width=2.7cm,minimum height=0.9cm,font=\scriptsize\bfseries},
+  ext/.style={draw=gray!70,fill=gray!12,rounded corners,align=center,
+              text width=2.5cm,minimum height=0.85cm,font=\scriptsize},
+  arr/.style={-{Latex[length=2mm]},draw=gray!75,font=\scriptsize},
+  lbl/.style={fill=white,inner sep=1pt,font=\scriptsize}
+]
+\node[sys] (sys) at (0,0) {SGR-IA\\Sistema de gestión para restaurante};
+\node[ext] (cli) at (-5.4,2.3) {Cliente\\(CLI-01)};
+\node[ext] (mes) at (-2.9,2.3) {Mesero/a\\(MES-01)};
+\node[ext] (coc) at (-2.9,-2.3) {Cocinero/a\\(COC-01)};
+\node[ext] (caj) at (2.9,-2.3) {Cajero/a\\(CAJ-01)};
+\node[ext] (adm) at (0,3.3) {Administrador\\(AD-01)};
+\node[ext] (pro) at (5.4,2.3) {Proveedor\\(PRO-01)};
+\node[ext] (del) at (5.4,-2.3) {Repartidor\\(DEL-01)};
+\node[ext,draw=red!60,fill=red!6,dashed] (sri) at (0,-3.5) {Facturación electrónica\\fuera de alcance};
+
+\draw[arr] (cli) -- node[lbl,above] {Pedido} (mes);
+\draw[arr] (mes) -- node[lbl,above,sloped] {Registro} (sys);
+\draw[arr] (sys) -- node[lbl,below,sloped] {Orden en cocina} (coc);
+\draw[arr] (coc) to[bend left=12] node[lbl,below,sloped] {Cambio de estado} (sys);
+\draw[arr] (sys) -- node[lbl,below,sloped] {Detalle de cierre} (caj);
+\draw[arr] (caj) to[bend left=12] node[lbl,below,sloped] {Medio de pago} (sys);
+\draw[arr] (adm) -- node[lbl,right] {Reglas} (sys);
+\draw[arr] (sys) to[bend right=18] node[lbl,left] {Resumen diario} (adm);
+\draw[arr] (pro) -- node[lbl,above,sloped] {Entrada de insumos} (sys);
+\draw[arr] (sys) to[bend right=14] node[lbl,below,sloped] {Alerta de reposición} (pro);
+\draw[arr] (del) -- node[lbl,below,sloped] {Estado de entrega} (sys);
+\draw[arr,dashed,red!60] (sys) -- node[lbl,below] {No integrado en E1} (sri);
+\end{tikzpicture}
+\end{document}
