@@ -1,0 +1,33 @@
+@startuml
+title Contexto propuesto del SGR-IA - Anaranjoa-UX
+left to right direction
+
+actor "Cliente (CLI-01)" as CLI
+actor "Mesero/a (MES-01)" as MES
+actor "Cocinero/a (COC-01)" as COC
+actor "Cajero/a (CAJ-01)" as CAJ
+actor "Administrador (AD-01)" as ADM
+actor "Proveedor (PRO-01)" as PRO
+actor "Repartidor (DEL-01)" as DEL
+
+rectangle "SGR-IA\nSistema de gestion para restaurante con IA" as SYS
+rectangle "Facturacion electronica\nfuera de alcance" as SRI
+
+CLI --> MES : Pedido
+MES --> SYS : Registro de pedido
+SYS --> COC : Orden en cocina
+COC --> SYS : Cambio de estado
+SYS --> CAJ : Detalle para cierre
+CAJ --> SYS : Medio de pago
+ADM --> SYS : Reglas y consultas
+SYS --> ADM : Resumen diario
+PRO --> SYS : Entrada de insumos
+SYS --> PRO : Alerta de reposicion
+DEL --> SYS : Estado de entrega
+SYS ..> SRI : No integrado en E1
+
+note bottom of SYS
+  Hipotesis de contexto.
+  Validar en sesion S5 con AD-01 y GO-01.
+end note
+@enduml

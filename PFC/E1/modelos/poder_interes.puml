@@ -1,0 +1,32 @@
+@startuml
+title Matriz poder-interes - roles de Anaranjoa-UX
+
+rectangle "ALTO PODER / ALTO INTERES\nGestionar de cerca" as Q1 #FFC7C7
+rectangle "ALTO PODER / BAJO INTERES\nMantener satisfecho" as Q2 #FFE3C7
+rectangle "BAJO PODER / ALTO INTERES\nMantener informado" as Q3 #D9EAD3
+rectangle "BAJO PODER / BAJO INTERES\nMonitorear" as Q4 #E6E6E6
+
+Q1 -down- Q3
+Q2 -down- Q4
+Q1 -right- Q2
+Q3 -right- Q4
+
+note right of Q1
+  AD-01 Propietario
+  GO-01 Gerente de operaciones
+end note
+note right of Q2
+  PRO-01 Proveedor
+end note
+note right of Q3
+  COC-01 Jefe de cocina
+  CAJ-01 Cajero
+  INV-01 Inventario
+  MES-01 Mesero
+  DEL-01 Repartidor
+  CLI-01 Cliente
+end note
+note right of Q4
+  Sin roles asignados en E1
+end note
+@enduml
