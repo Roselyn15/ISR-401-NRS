@@ -1,0 +1,115 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish,es-tabla]{babel}
+\usepackage[a4paper,top=2.5cm,bottom=2.3cm,left=2.2cm,right=2.2cm,headheight=28pt]{geometry}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{colortbl}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage[most]{tcolorbox}
+\usepackage{csquotes}
+\usepackage[backend=biber,style=ieee]{biblatex}
+\usepackage[hidelinks]{hyperref}
+
+\addbibresource{referencias.bib}
+
+\definecolor{uteqgreen}{HTML}{0B7A3B}
+\definecolor{uteqdark}{HTML}{075C2C}
+\definecolor{midblue}{HTML}{1F5C8B}
+\definecolor{rowgray}{HTML}{F2F4F3}
+\definecolor{boxbg}{HTML}{F7F9F8}
+
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcommand{\thdr}[1]{\cellcolor{uteqgreen}\textcolor{white}{\textbf{#1}}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\footnotesize UTEQ $\cdot$ Ingenier\'ia de Requerimientos (ISR-401) $\cdot$ SPA 2026--2027}
+\rhead{\footnotesize TA-PFC-E1 -- Entrega 1}
+\lfoot{\footnotesize Sistema de Gesti\'on para Restaurante con IA -- El Balcón Restaurant (Quevedo)}
+\rfoot{\footnotesize P\'agina \thepage\ de \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\renewcommand{\arraystretch}{1.2}
+
+\begin{document}
+
+\begin{titlepage}
+    \centering
+    \vspace*{0.6cm}
+    {\Large\textbf{\textcolor{uteqdark}{UNIVERSIDAD T\'ECNICA ESTATAL DE QUEVEDO}}}\\[0.25cm]
+    {\large Facultad de Ciencias de la Computaci\'on}\\[0.15cm]
+    {\large Carrera de Ingenier\'ia de Software}\\[0.8cm]
+
+    \textcolor{uteqgreen}{\rule{\linewidth}{1.5pt}}\\[0.5cm]
+    {\LARGE\textbf{TA-PFC-E1 -- ENTREGA 1}}\\[0.3cm]
+    {\Large Visi\'on, alcance, partes interesadas, contexto y plan de elicitaci\'on}\\[0.45cm]
+    \textcolor{uteqgreen}{\rule{\linewidth}{1.0pt}}\\[0.8cm]
+
+    \begin{tcolorbox}[colback=boxbg,colframe=uteqgreen,boxrule=0.8pt,arc=2mm,title={\textbf{Proyecto Fin de Curso}}]
+        \centering
+        \textbf{Sistema de Gesti\'on para Restaurante con M\'odulo de Inteligencia Artificial}\\
+        \textbf{Organizaci\'on cliente: El Balcón Restaurant, Quevedo, Los R\'ios}
+    \end{tcolorbox}
+
+    \vspace{0.7cm}
+
+    \noindent\begin{tabularx}{\linewidth}{|p{0.30\linewidth}|Y|}
+        \hline
+        \thdr{Campo} & \thdr{Detalle}\\
+        \hline
+        Asignatura & Ingenier\'ia de Requerimientos (ISR-401) --- 4.\textsuperscript{o} Nivel, Paralelo B\\
+        \hline
+        \rowcolor{rowgray} Docente & Gleiston Cicer\'on Guerrero Ulloa, PhD (\texttt{gguerrero@uteq.edu.ec})\\
+        \hline
+        Unidad & Unidad 2. Elicitaci\'on y An\'alisis de Requisitos\\
+        \hline
+        \rowcolor{rowgray} Per\'iodo acad\'emico & Segundo Per\'iodo Acad\'emico Ordinario (SPA) 2026--2027\\
+        \hline
+        Semana y cierre & Semana 4 (16 al 22 de noviembre de 2026) --- Cierre: s\'abado 21 de noviembre de 2026, 23:59\\
+        \hline
+        \rowcolor{rowgray} Equipo &
+        Robinson Espinoza Jeanpierre (L\'ider; visi\'on, alcance y gesti\'on)\\
+        & Naranjo Alfonzo Anthony Alexander (Elicitaci\'on y modelado)\\
+        & S\'anchez Centeno Roselyn Andreina (An\'alisis y calidad documental)\\
+        \hline
+        Repositorio & \url{https://github.com/Roselyn15/ISR-401-NRS} (Paralelo B)\\
+        \hline
+    \end{tabularx}
+
+    \vfill
+    {\normalsize Quevedo, Los R\'ios, Ecuador}\\
+    {\normalsize Noviembre de 2026}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+% ==============================================================================
+% SECCION 1: FICHA Y ALCANCE (Lider: Robinson Espinoza Jeanpierre)
+% ==============================================================================
+\input{secciones/01_ficha_alcance}
+
+% ==============================================================================
+% SECCION 2: PARTES INTERESADAS (Sanchez Centeno Roselyn Andreina) -- commit del 21/11
+% ==============================================================================
+% \input{secciones/02_partes_interesadas}
+
+% ==============================================================================
+% SECCION 3: PLAN DE ELICITACION Y CONTEXTO (Naranjo Alfonzo Anthony Alexander) -- commit del 20/11
+% ==============================================================================
+% \input{secciones/03_plan_elicitacion}
+
+\newpage
+\printbibliography[title={Referencias}]
+
+\end{document}
