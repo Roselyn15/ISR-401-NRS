@@ -1,6 +1,6 @@
 # Manifiesto de evidencias privadas — TA-PFC-E1
 
-Estado al 20 de noviembre de 2026: **no se ha publicado ninguna evidencia privada
+Estado al 21 de noviembre de 2026: **no se ha publicado ninguna evidencia privada
 en este repositorio**. No hay audios, transcripciones, actas, consentimientos
 firmados, cédulas, teléfonos ni correos personales de participantes.
 
@@ -27,7 +27,8 @@ otra organización ni son ejemplos simulados. Las versiones antiguas o simuladas
 que circularon como material de apoyo quedan excluidas y solo se mencionan en
 la sección «Instrumento usado y material excluido» para documentar por qué no
 se contabilizan. La fecha de cada sesión y la duración real de las grabaciones
-no constan en las transcripciones y permanecen como `PENDIENTE`.
+no constan en las transcripciones, pero se registran a partir de los videos
+EV-10 a EV-13.
 
 ## Registro de evidencias privadas
 
@@ -35,11 +36,11 @@ no constan en las transcripciones y permanecen como `PENDIENTE`.
 |---|---|---|---|---|---|
 | EV-01 | `carta_aceptacion_balcon_firmada.pdf` | PENDIENTE | — | PENDIENTE | No (carpeta privada `@uteq.edu.ec`) |
 | EV-02 | `registro_primer_contacto_20261119.md` | PENDIENTE | — | PENDIENTE | No (carpeta privada `@uteq.edu.ec`) |
-| EV-03 | `ENTR-01.pdf` | 2026-11-20 (emisión del PDF; sesión PENDIENTE) | PENDIENTE | `EE80DF0737D5A12622D584B095076FA3B00A5AA2CC50EDFF68D37C97A142CA11` | No (carpeta privada `@uteq.edu.ec`) |
-| EV-04 | `ENTR-02.pdf` | 2026-11-20 (emisión del PDF; sesión PENDIENTE) | PENDIENTE | `5C057ECC56CD6E4EA8DB58FF25A74E0DD868F7B1C404D394D483FC61D2BEC30E` | No (carpeta privada `@uteq.edu.ec`) |
-| EV-05 | `ENTR-03.pdf` | 2026-11-20 (emisión del PDF; sesión PENDIENTE) | PENDIENTE | `E6E422851F6CF673B6DAB7E565BF447979B36E0ACDCE21B04A2782102DE00FCA` | No (carpeta privada `@uteq.edu.ec`) |
-| EV-06 | `ENTR-04.pdf` | 2026-11-20 (emisión del PDF; sesión PENDIENTE) | PENDIENTE | `7FDF056E82C02C3E3584ABC48650C68A24F785E33A34F86F5A6998FCB190831B` | No (carpeta privada `@uteq.edu.ec`) |
-| EV-07 | `ENTR-03_CONSENTIMIENTO_ADENDUM.txt` | 2026-11-21 (emisión del adendum; sesión PENDIENTE) | — | `F3CA30A8C3325376F184DDE978D6AF72ACA446006220C8F2FC5FA26BF334401E` | No (carpeta privada `@uteq.edu.ec`) |
+| EV-03 | `ENTR-01.pdf` | 2026-11-20 (sesión) | 00:21:26 | `EE80DF0737D5A12622D584B095076FA3B00A5AA2CC50EDFF68D37C97A142CA11` | No (carpeta privada `@uteq.edu.ec`) |
+| EV-04 | `ENTR-02.pdf` | 2026-11-20 (sesión) | 00:17:23 | `5C057ECC56CD6E4EA8DB58FF25A74E0DD868F7B1C404D394D483FC61D2BEC30E` | No (carpeta privada `@uteq.edu.ec`) |
+| EV-05 | `ENTR-03.pdf` | 2026-11-20 (sesión) | 00:19:28 | `E6E422851F6CF673B6DAB7E565BF447979B36E0ACDCE21B04A2782102DE00FCA` | No (carpeta privada `@uteq.edu.ec`) |
+| EV-06 | `ENTR-04.pdf` | 2026-11-20 (sesión) | 00:14:43 | `7FDF056E82C02C3E3584ABC48650C68A24F785E33A34F86F5A6998FCB190831B` | No (carpeta privada `@uteq.edu.ec`) |
+| EV-07 | `ENTR-03_CONSENTIMIENTO_ADENDUM.txt` | 2026-11-21 (emisión del adendum; sesión 2026-11-20) | — | `F3CA30A8C3325376F184DDE978D6AF72ACA446006220C8F2FC5FA26BF334401E` | No (carpeta privada `@uteq.edu.ec`) |
 
 EV-07 es la parte de consentimiento informado que la herramienta de
 transcripción no incluyó en `ENTR-03.pdf`. Se conservan las respuestas tal como
@@ -50,8 +51,8 @@ Creative Commons Atribución Internacional queda sin respuesta en el texto
 recibido y **no se completa con un `Sí` supuesto**. El original `ENTR-03.pdf` no
 se modifica, por lo que su SHA-256 registrado sigue vigente.
 
-| EV-08 | `ENTR-01_CODIGO_ADENDUM.txt` | 2026-11-21 (emisión del adendum; sesión PENDIENTE) | — | `B3B17484F70688C21B16519C30A4FA5E6D14722A316896750AE5D5841F7BC033` | No (carpeta privada `@uteq.edu.ec`) |
-| EV-09 | `ENTR-04_CODIGO_ADENDUM.txt` | 2026-11-21 (emisión del adendum; sesión PENDIENTE) | — | `CB3BA4227826F35AC038BD5CC76D8259975F8B84C249B68437AD2BFB7F5E4AFD` | No (carpeta privada `@uteq.edu.ec`) |
+| EV-08 | `ENTR-01_CODIGO_ADENDUM.txt` | 2026-11-21 (emisión del adendum; sesión 2026-11-20) | — | `B3B17484F70688C21B16519C30A4FA5E6D14722A316896750AE5D5841F7BC033` | No (carpeta privada `@uteq.edu.ec`) |
+| EV-09 | `ENTR-04_CODIGO_ADENDUM.txt` | 2026-11-21 (emisión del adendum; sesión 2026-11-20) | — | `CB3BA4227826F35AC038BD5CC76D8259975F8B84C249B68437AD2BFB7F5E4AFD` | No (carpeta privada `@uteq.edu.ec`) |
 
 EV-08 y EV-09 registran únicamente el reconocimiento de la participante con su
 código (`ENTR-01` y `ENTR-04`), que la herramienta de transcripción no consignó
@@ -59,11 +60,27 @@ como ítem explícito. No se inventan respuestas de consentimiento: `ENTR-02` ya
 tenía ese ítem en su transcripción y `ENTR-03` lo recibe en EV-07 con el texto
 proporcionado. Los originales `ENTR-01.pdf` y `ENTR-04.pdf` no se modifican.
 
+## Grabaciones de las entrevistas
+
+| ID | Nombre de archivo | Fecha | Duración | SHA-256 | Publicada en repo |
+|---|---|---|---|---|---|
+| EV-10 | `ENTR-01_20261120_entrevista.mp4` | 2026-11-20 | 00:21:26 | `A2FD7DB3C5D70E8B813AF5467FC7284CDF03F45B207A54CE28B93182B1F0BC84` | No (carpeta privada `@uteq.edu.ec`) |
+| EV-11 | `ENTR-02_20261120_entrevista.mp4` | 2026-11-20 | 00:17:23 | `4D1FF87FE2BD9112DE725765084B8BE099ED7BE42CFBCE39008377D86C53670C` | No (carpeta privada `@uteq.edu.ec`) |
+| EV-12 | `ENTR-03_20261120_entrevista.mp4` | 2026-11-20 | 00:19:28 | `03713F4334838FFCAD17ABC97F7B6979F10C37E8C7310A25499396C21D4C7535` | No (carpeta privada `@uteq.edu.ec`) |
+| EV-13 | `ENTR-04_20261120_entrevista.mp4` | 2026-11-20 | 00:14:43 | `3CECA83A028BD6A3EF4BFB3D7E88326FB04A5251010B9ED4AA4C017B476E26D2` | No (carpeta privada `@uteq.edu.ec`) |
+
+Los cuatro videos se conservan en la carpeta privada `@uteq.edu.ec` y se
+nombran con el código del participante y la fecha declarada en el archivo. La
+duración se tomó de las propiedades del archivo y la huella SHA-256 del archivo
+mismo. Las transcripciones `ENTR-01.pdf` a `ENTR-04.pdf` corresponden a estas
+grabaciones; EV-03 a EV-06 registran la fecha y duración de la sesión, mientras
+que EV-10 a EV-13 registran los archivos de video originales.
+
 EV-01 y EV-02 siguen **pendientes de obtención**. No se inventa fecha,
 duración ni huella: hacerlo constituiría evidencia de campo fabricada. En EV-03
-a EV-06 la fecha consignada es la de emisión del archivo, no la de la sesión;
-las transcripciones no registran la fecha de la entrevista ni la duración real
-del audio, por lo que esos dos campos permanecen como `PENDIENTE`.
+a EV-06 la fecha y la duración se tomaron de los videos EV-10 a EV-13; la fecha
+declarada en el nombre de cada video es 2026-11-20 y la duración se obtuvo de
+las propiedades del archivo.
 
 ## Coincidencia entre `002.pdf` y `ENTR-02`
 
