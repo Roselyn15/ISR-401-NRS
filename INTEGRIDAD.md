@@ -24,9 +24,13 @@ autoría y evidencias. No sustituye la explicación que debe darse al docente.
 
 ## 3. Evidencias pendientes
 
-- EV-01 (carta de aceptación firmada) y EV-02 (registro real del primer
-  contacto) **no existen**. Permanecen como `PENDIENTE` en `MANIFIESTO.md`.
-  No se inventan fechas, nombres ni huellas.
+- EV-01 (carta de aceptación firmada) se recibió el 21/11 como copia digital
+  de un documento con fecha impresa 18/11. Se guardó en la carpeta privada
+  `@uteq.edu.ec` y solo se publica su nombre de archivo, fecha y SHA-256 en
+  `MANIFIESTO.md`; el original contiene nombre, firma y cargo y no se sube al
+  repositorio.
+- EV-02 (registro real del primer contacto) **no existe**. Permanece como
+  `PENDIENTE` en `MANIFIESTO.md`. No se inventan fechas, nombres ni huellas.
 
 ## 4. Adendums de consentimiento
 

@@ -34,7 +34,7 @@ EV-10 a EV-13.
 
 | ID | Nombre de archivo | Fecha | Duración | SHA-256 | Publicada en repo |
 |---|---|---|---|---|---|
-| EV-01 | `carta_aceptacion_balcon_firmada.pdf` | PENDIENTE | — | PENDIENTE | No (carpeta privada `@uteq.edu.ec`) |
+| EV-01 | `carta_aceptacion_balcon_firmada.pdf` | 2026-11-18 (fecha impresa en la carta) | - | `F3F6799360A066155582692C3CBA546BF5DA800AA9DD0E5F32698ABE5932DD0B` | No (carpeta privada `@uteq.edu.ec`) |
 | EV-02 | `registro_primer_contacto_20261119.md` | PENDIENTE | — | PENDIENTE | No (carpeta privada `@uteq.edu.ec`) |
 | EV-03 | `ENTR-01.pdf` | 2026-11-20 (sesión) | 00:21:26 | `EE80DF0737D5A12622D584B095076FA3B00A5AA2CC50EDFF68D37C97A142CA11` | No (carpeta privada `@uteq.edu.ec`) |
 | EV-04 | `ENTR-02.pdf` | 2026-11-20 (sesión) | 00:17:23 | `5C057ECC56CD6E4EA8DB58FF25A74E0DD868F7B1C404D394D483FC61D2BEC30E` | No (carpeta privada `@uteq.edu.ec`) |
@@ -80,8 +80,12 @@ que EV-10 a EV-13 registran los archivos de video originales. La duración
 medida de `ENTR-04` (00:14:43) es inferior al rango estimado de 15 a 30
 minutos de la guía; se consigna el valor real del archivo.
 
-EV-01 y EV-02 siguen **pendientes de obtención**. No se inventa fecha,
-duración ni huella: hacerlo constituiría evidencia de campo fabricada. En EV-03
+EV-02 sigue **pendiente de obtención**. No se inventa fecha, duración ni
+huella: hacerlo constituiría evidencia de campo fabricada. EV-01 se registró
+con la fecha impresa en la carta (2026-11-18) y la huella del PDF generado a
+partir de la copia recibida; el documento original permanece en la carpeta
+privada `@uteq.edu.ec` y no se publica porque contiene nombre, firma y cargo.
+En EV-03
 a EV-06 la fecha y la duración se tomaron de los videos EV-10 a EV-13; la fecha
 declarada en el nombre de cada video es 2026-11-20 y la duración se obtuvo de
 las propiedades del archivo.
