@@ -100,9 +100,10 @@ son las informadas por el equipo: `ENTR-01` del 18/11, `ENTR-02` del 19/11,
 20/11 para las cuatro sesiones; ese dato se corrigió para `ENTR-01`,
 `ENTR-02` y `ENTR-03`. Los archivos de video se renombraron para que su nombre
 coincida con la fecha informada; su contenido y sus SHA-256 no cambiaron.
-Nota: el archivo original de `ENTR-02` lleva en su nombre la fecha 18/11
-(23:18), mientras el equipo informó que la sesión fue el 19/11. Se consigna
-la fecha informada y se deja constancia de la discrepancia.
+Nota: la **fecha original del archivo** de `ENTR-02`, según su nombre, es
+18/11/2026 a las 23:18. El equipo informó que la sesión fue el 19/11; esa es
+la fecha usada en el registro y la del archivo se conserva únicamente como
+nota. No se renombrará de nuevo el archivo privado.
 
 ## Consentimientos informados firmados
 

@@ -90,7 +90,10 @@ autoría y evidencias. No sustituye la explicación que debe darse al docente.
 - El archivo original de `ENTR-02` lleva en su nombre la fecha 18/11 a las
   23:18, mientras el equipo informó que la sesión fue el 19/11. Se registra
   la fecha informada y se deja constancia de la discrepancia; no se ha
-  alterado el archivo de video.
+  alterado el archivo de video ni se volverá a renombrar.
+- `ENTR-03` corresponde al 21/11, pero el informe ya la citaba en commits del
+  20/11. Se deja constancia de ese desajuste entre la fecha de la sesión y la
+  fecha de los commits que citan la evidencia; no se reescribe el historial.
 
 ## 6. Verificación técnica
 

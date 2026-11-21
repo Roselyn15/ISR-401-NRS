@@ -26,7 +26,9 @@ PFC/E1/
 ├── secciones/
 │   ├── 01_ficha_alcance.tex
 │   ├── 02_partes_interesadas.tex
-│   └── 03_plan_elicitacion.tex
+│   ├── 03_contexto.tex
+│   ├── 03_plan_elicitacion.tex
+│   └── 04_gestion_proyecto.tex
 ├── instrumentos/
 │   ├── guion_entrevista.tex
 │   ├── cuestionario.tex
@@ -52,6 +54,7 @@ pdflatex -interaction=nonstopmode main.tex
 biber main
 pdflatex -interaction=nonstopmode main.tex
 pdflatex -interaction=nonstopmode main.tex
+pdflatex -interaction=nonstopmode main.tex
 ```
 
 > **Usar `biber`, NO `bibtex`.** El preámbulo carga
@@ -63,6 +66,23 @@ pdflatex -interaction=nonstopmode main.tex
 `booktabs`, `colortbl`, `xcolor`, `enumitem`, `fancyhdr`, `lastpage`,
 `tcolorbox` (opción `most` y librería `breakable`), `csquotes`, `inputenc`,
 `fontenc`, `hyperref`, `biblatex` con estilo IEEE y el ejecutable `biber`.
+
+## Verificación del PDF resultante
+
+Tras la secuencia anterior, `main.pdf` debe cumplir:
+
+```bash
+pdfinfo main.pdf | grep Pages
+pdftotext -layout main.pdf - | grep -c "de 19"
+pdftotext -layout main.pdf - | grep -c "??"
+grep -c "Overfull \\hbox" main.log
+grep -c "undefined" main.log
+```
+
+Valores esperados: `Pages: 19`, `19` pies con `de 19`, `0` ocurrencias de
+`??`, `0` desbordamientos y `0` referencias sin resolver. La bibliografía debe
+mostrar seis entradas IEEE. Los archivos auxiliares (`.aux`, `.bbl`, `.bcf`,
+`.blg`, `.log`, `.out`, `.toc`, `main.run.xml`) no se versionan.
 
 ## Normas del repositorio
 
