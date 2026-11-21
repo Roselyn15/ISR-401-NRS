@@ -90,6 +90,9 @@
     {\normalsize Quevedo, Los R\'ios, Ecuador}\\
     {\normalsize Noviembre de 2026}
 \end{titlepage}
+% La portada no incrementa el contador de pagina; se ajusta para que el pie
+% coincida con el total fisico de paginas del PDF.
+\addtocounter{page}{1}
 
 \tableofcontents
 \newpage
@@ -100,7 +103,7 @@
 \input{secciones/01_ficha_alcance}
 
 % ==============================================================================
-% SECCION 2: PARTES INTERESADAS (Sanchez Centeno Roselyn Andreina) -- commit del 21/11
+% SECCION 2: PARTES INTERESADAS (Sanchez Centeno Roselyn Andreina) -- commit del 19/11
 % ==============================================================================
 \input{secciones/02_partes_interesadas}
 \input{secciones/03_contexto}
@@ -108,9 +111,8 @@
 \input{secciones/04_gestion_proyecto}
 
 % ==============================================================================
-% SECCION 3: PLAN DE ELICITACION Y CONTEXTO (Naranjo Alfonzo Anthony Alexander) -- commit del 20/11
+% SECCIONES 6 Y 7: CONTEXTO Y PLAN DE ELICITACION (Naranjo Alfonzo Anthony Alexander)
 % ==============================================================================
-% \input{secciones/03_plan_elicitacion}
 
 \newpage
 \appendix
