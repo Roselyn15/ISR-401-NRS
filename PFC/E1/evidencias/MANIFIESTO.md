@@ -21,7 +21,7 @@ firmados, cédulas, teléfonos ni correos personales de participantes.
 ## Procedencia de `ENTR-01` a `ENTR-04`
 
 Las cuatro transcripciones corregidas son evidencia de campo obtenida por los
-integrantes del equipo en el El Balcón Restaurant, con consentimiento
+integrantes del equipo en El Balcón Restaurant, con consentimiento
 informado previo y usando únicamente códigos de participante. No provienen de
 otra organización ni son ejemplos simulados. Las versiones antiguas o simuladas
 que circularon como material de apoyo quedan excluidas y solo se mencionan en
@@ -39,6 +39,25 @@ no constan en las transcripciones y permanecen como `PENDIENTE`.
 | EV-04 | `ENTR-02.pdf` | 2026-11-20 (emisión del PDF; sesión PENDIENTE) | PENDIENTE | `5C057ECC56CD6E4EA8DB58FF25A74E0DD868F7B1C404D394D483FC61D2BEC30E` | No (carpeta privada `@uteq.edu.ec`) |
 | EV-05 | `ENTR-03.pdf` | 2026-11-20 (emisión del PDF; sesión PENDIENTE) | PENDIENTE | `E6E422851F6CF673B6DAB7E565BF447979B36E0ACDCE21B04A2782102DE00FCA` | No (carpeta privada `@uteq.edu.ec`) |
 | EV-06 | `ENTR-04.pdf` | 2026-11-20 (emisión del PDF; sesión PENDIENTE) | PENDIENTE | `7FDF056E82C02C3E3584ABC48650C68A24F785E33A34F86F5A6998FCB190831B` | No (carpeta privada `@uteq.edu.ec`) |
+| EV-07 | `ENTR-03_CONSENTIMIENTO_ADENDUM.txt` | 2026-11-21 (emisión del adendum; sesión PENDIENTE) | — | `F3CA30A8C3325376F184DDE978D6AF72ACA446006220C8F2FC5FA26BF334401E` | No (carpeta privada `@uteq.edu.ec`) |
+
+EV-07 es la parte de consentimiento informado que la herramienta de
+transcripción no incluyó en `ENTR-03.pdf`. Se conservan las respuestas tal como
+se proporcionaron: `Sí` para identificación con `ENTR-03`, participación,
+grabación de audio y video, y uso anonimizado; `No` para fotografías del entorno
+y para citas textuales; el ítem de depósito en repositorio abierto bajo licencia
+Creative Commons Atribución Internacional queda sin respuesta en el texto
+recibido y **no se completa con un `Sí` supuesto**. El original `ENTR-03.pdf` no
+se modifica, por lo que su SHA-256 registrado sigue vigente.
+
+| EV-08 | `ENTR-01_CODIGO_ADENDUM.txt` | 2026-11-21 (emisión del adendum; sesión PENDIENTE) | — | `B3B17484F70688C21B16519C30A4FA5E6D14722A316896750AE5D5841F7BC033` | No (carpeta privada `@uteq.edu.ec`) |
+| EV-09 | `ENTR-04_CODIGO_ADENDUM.txt` | 2026-11-21 (emisión del adendum; sesión PENDIENTE) | — | `CB3BA4227826F35AC038BD5CC76D8259975F8B84C249B68437AD2BFB7F5E4AFD` | No (carpeta privada `@uteq.edu.ec`) |
+
+EV-08 y EV-09 registran únicamente el reconocimiento de la participante con su
+código (`ENTR-01` y `ENTR-04`), que la herramienta de transcripción no consignó
+como ítem explícito. No se inventan respuestas de consentimiento: `ENTR-02` ya
+tenía ese ítem en su transcripción y `ENTR-03` lo recibe en EV-07 con el texto
+proporcionado. Los originales `ENTR-01.pdf` y `ENTR-04.pdf` no se modifican.
 
 EV-01 y EV-02 siguen **pendientes de obtención**. No se inventa fecha,
 duración ni huella: hacerlo constituiría evidencia de campo fabricada. En EV-03
@@ -62,7 +81,7 @@ por eso el informe usa solo paráfrasis y no publica las transcripciones.
 
 - `MODELO_CARTA_ACEPTACION.md` — plantilla sin firmar; no es evidencia.
 - `MODELO_CONSENTIMIENTO_INFORMADO_SGR1.tex` y su PDF — modelo adaptado de
-  `Consentimiento_Informado_SGR1.pdf` a El Balcón Restaurant y a este repositorio;
+  `Consentimiento_Informado_SGR1.pdf` a este proyecto y a este repositorio;
   conserva la estructura de ocho secciones pero está **sin firmar**, por lo que
   no es evidencia.
 - `MODELO_CONSENTIMIENTO_INFORMADO.md` — resumen en texto de la misma plantilla.
