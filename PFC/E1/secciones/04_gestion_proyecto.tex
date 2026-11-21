@@ -1,0 +1,105 @@
+\providecommand{\iquest}[1]{¿#1}
+\section{Gestión del proyecto}
+\sloppy
+
+\subsection{Roles y responsabilidades del equipo}
+La organización del trabajo sigue los principios de integración y definición del alcance del PMBOK \cite{pmbok2021}. La tabla~\ref{tab:roles} reparte las responsabilidades verificables de la entrega 1.
+
+\begin{table}[htbp]
+\centering
+\footnotesize
+\begin{tabularx}{\linewidth}{|p{3.4cm}|X|}
+\hline
+\thdr{Integrante} & \thdr{Responsabilidades en la entrega 1}\\
+\hline
+Robinson Espinoza Jeanpierre (l\'ider) & Visi\'on, alcance y objetivos; relaci\'on con la organizaci\'on; consentimiento y custodia LOPDP; integraci\'on de \texttt{main.tex}, compilaci\'on y PDF del SGA.\\
+\hline
+Naranjo Alfonzo Anthony Alexander & Elicitaci\'on y modelado: t\'ecnicas por fuente, instrumentos, contexto y matriz poder--inter\'es en fuentes editables.\\
+\hline
+S\'anchez Centeno Roselyn Andreina & An\'alisis y calidad documental: partes interesadas, estrategia de participaci\'on, coherencia y trazabilidad, referencias IEEE y revisi\'on del PDF.\\
+\hline
+\end{tabularx}
+\caption{Roles y responsabilidades del equipo.}
+\label{tab:roles}
+\end{table}
+
+\subsection{Cronograma hasta la semana 17}
+La tabla~\ref{tab:cronograma} planifica el trabajo desde la semana 4 hasta la semana 17 del SPA 2026--2027. Las entregas posteriores a la semana 4 se enuncian como plan de proyecto y no como resultados obtenidos en esta entrega.
+
+\begin{table}[htbp]
+\centering
+\footnotesize
+\begin{tabularx}{\linewidth}{|p{1.7cm}|X|p{3.2cm}|}
+\hline
+\thdr{Semana} & \thdr{Actividad planificada} & \thdr{Producto}\\
+\hline
+4 & Visi\'on, alcance y bases de la entrega 1 & \texttt{main.tex}, README, ficha y alcance.\\
+\hline
+5 & Elicitaci\'on con AD-01, GO-01, MES-01 y COC-01 & Notas an\'onimas y contexto validado.\\
+\hline
+6 & Elicitaci\'on con CAJ-01, INV-01, DEL-01 y CLI-01 & Instrumentos aplicados y perspectivas revisadas.\\
+\hline
+7 & An\'alisis y especificaci\'on de requisitos & Lista de requisitos y trazabilidad.\\
+\hline
+8 & Modelado funcional y de datos & Modelos editables exportados.\\
+\hline
+9 & Validaci\'on de requisitos con la organizaci\'on & Registro de cambios acordados.\\
+\hline
+10 & Dise\~no de prototipo & Prototipo navegable.\\
+\hline
+11--12 & Construcci\'on del prototipo y pruebas unitarias & Versiones incrementales.\\
+\hline
+13 & Pruebas de integraci\'on y usabilidad & Informe de pruebas.\\
+\hline
+14 & Ajustes seg\'un validaci\'on & Prototipo corregido.\\
+\hline
+15 & Preparaci\'on de la entrega 2 & Documentaci\'on y fuentes.\\
+\hline
+16 & Revisi\'on final y ensayo & PDF y repositorio listos.\\
+\hline
+17 & Cierre del PFC & Entrega final.\\
+\hline
+\end{tabularx}
+\caption{Cronograma del proyecto hasta la semana 17.}
+\label{tab:cronograma}
+\end{table}
+
+\subsection{Plan de comunicaci\'on con la organizaci\'on}
+\begin{itemize}[leftmargin=18pt,itemsep=3pt]
+    \item \textbf{Canal:} correo institucional \texttt{@uteq.edu.ec} y mensajer\'ia acordada con AD-01; no se usan correos personales de participantes.
+    \item \textbf{Frecuencia:} un resumen an\'onimo despu\'es de cada sesi\'on y una validaci\'on formal al cierre de la entrega 1.
+    \item \textbf{Responsable:} el l\'ider concentra las solicitudes y devuelve los acuerdos; los dem\'as integrantes no contactan por separado sin coordinaci\'on.
+    \item \textbf{Registro:} cada contacto se anota en \texttt{evidencias/REGISTRO\_CONTACTO.md} y su respaldo privado se registra en el manifiesto con SHA-256.
+\end{itemize}
+
+\subsection{Registro de riesgos}
+La tabla~\ref{tab:riesgos} recoge riesgos espec\'ificos de la organizaci\'on y del contexto acad\'emico, con mitigaciones verificables.
+
+\begin{table}[htbp]
+\centering
+\footnotesize
+\begin{tabularx}{\linewidth}{|l|X|p{1.9cm}|X|}
+\hline
+\thdr{ID} & \thdr{Riesgo} & \thdr{Impacto} & \thdr{Mitigaci\'on}\\
+\hline
+R1 & Disponibilidad limitada de AD-01 por atenci\'on del local & Alto & Agendar con antelaci\'on y preparar res\'umenes breves para validaci\'on.\\
+\hline
+R2 & Ruido e interrupciones en sala durante la observaci\'on & Medio & Observar en turnos de baja demanda y registrar solo c\'odigos de rol.\\
+\hline
+R3 & Rotaci\'on de personal antes de la validaci\'on & Medio & Documentar el rol, no la persona, y repetir la sesi\'on cr\'itica con el reemplazo.\\
+\hline
+R4 & Sensibilidad de datos de clientes y proveedores & Alto & Excluir identificadores personales y aplicar anonimizaci\'on desde el instrumento.\\
+\hline
+R5 & Conectividad insuficiente en el local & Medio & Dise\~nar instrumentos impresos y probar la soluci\'on con datos locales.\\
+\hline
+R6 & Dependencia de una sola fuente para el flujo de pedidos & Medio & Contrastar entrevista, observaci\'on y cuestionario.\\
+\hline
+R7 & Carga acad\'emica concurrente en semana 16 & Medio & Cerrar fuentes y compilaci\'on antes de la semana 15.\\
+\hline
+\end{tabularx}
+\caption{Registro de riesgos de la entrega 1.}
+\label{tab:riesgos}
+\end{table}
+
+\subsection{\'Etica, consentimiento y custodia}
+El tratamiento de datos se rige por la LOPDP \cite{lopdp2021} y por el C\'odigo de \'Etica de la ACM \cite{acm2018}. Se emplean c\'odigos de rol, se excluyen c\'edulas, tel\'efonos, correos personales, audios y firmas del repositorio p\'ublico, y se solicita consentimiento informado antes de aplicar cualquier instrumento. El modelo en blanco se entrega en \texttt{evidencias/MODELO\_CONSENTIMIENTO\_INFORMADO\_SGR1.tex}; una vez firmado, el original se guarda en la carpeta institucional privada \texttt{@uteq.edu.ec} y en el repositorio solo se registra su nombre de archivo, fecha, duraci\'on y huella SHA-256 en \texttt{evidencias/MANIFIESTO.md}. La carta de aceptaci\'on y el registro de primer contacto siguen la misma regla.
