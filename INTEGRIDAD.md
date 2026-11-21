@@ -29,8 +29,12 @@ autoría y evidencias. No sustituye la explicación que debe darse al docente.
   `@uteq.edu.ec` y solo se publica su nombre de archivo, fecha y SHA-256 en
   `MANIFIESTO.md`; el original contiene nombre, firma y cargo y no se sube al
   repositorio.
-- EV-02 (registro real del primer contacto) **no existe**. Permanece como
-  `PENDIENTE` en `MANIFIESTO.md`. No se inventan fechas, nombres ni huellas.
+- EV-02 (registro del primer contacto) se diligenció el 21/11 con base en la
+  información reportada por el equipo sobre el contacto del 18/11 a las 1:20
+  pm, por medio digital, atendido por la administradora (`AD-01`). Es por tanto
+  un registro documentado después del hecho, no un acta simultánea; se guarda
+  en `@uteq.edu.ec` y en el repositorio solo se publican su nombre de archivo,
+  fecha y SHA-256. No se inventaron nombres ni datos de contacto.
 
 ## 4. Adendums de consentimiento
 
