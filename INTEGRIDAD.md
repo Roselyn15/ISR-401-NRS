@@ -70,11 +70,15 @@ autoría y evidencias. No sustituye la explicación que debe darse al docente.
   estas dos. Los archivos privados se renombraron para que su nombre coincida
   con la fecha real. Su contenido y sus huellas SHA-256 no cambiaron.
 - Según lo informado por el equipo, `ENTR-01` se realizó el miércoles 18/11,
-  `ENTR-02` el 18/11, `ENTR-03` el 21/11 y `ENTR-04` el 20/11. El manifiesto
+  `ENTR-02` el 19/11, `ENTR-04` el 20/11 y `ENTR-03` el 21/11. El manifiesto
   había declarado 20/11 para las cuatro; se corrigió ese dato en `ENTR-01`,
   `ENTR-02` y `ENTR-03`. Los archivos de video se renombraron para que su
   nombre coincida con la fecha informada; su contenido y sus huellas SHA-256
   no cambiaron.
+- El archivo original de `ENTR-02` lleva en su nombre la fecha 18/11 a las
+  23:18, mientras el equipo informó que la sesión fue el 19/11. Se registra
+  la fecha informada y se deja constancia de la discrepancia; no se ha
+  alterado el archivo de video.
 
 ## 6. Verificación técnica
 

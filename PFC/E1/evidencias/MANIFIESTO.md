@@ -37,7 +37,7 @@ EV-10 a EV-13.
 | EV-01 | `carta_aceptacion_balcon_firmada.pdf` | 2026-11-18 (fecha impresa en la carta) | - | `F3F6799360A066155582692C3CBA546BF5DA800AA9DD0E5F32698ABE5932DD0B` | No (carpeta privada `@uteq.edu.ec`) |
 | EV-02 | `registro_primer_contacto_20261118.pdf` | 2026-11-18 (contacto, 1:20 pm) | - | `D2EEDD2E82547941BF68A29AB70A75258F9AC997663A65A7D571F7F989216E94` | No (carpeta privada `@uteq.edu.ec`) |
 | EV-03 | `ENTR-01.pdf` | 2026-11-18 (sesión, informada por el equipo) | 00:21:26 | `EE80DF0737D5A12622D584B095076FA3B00A5AA2CC50EDFF68D37C97A142CA11` | No (carpeta privada `@uteq.edu.ec`) |
-| EV-04 | `ENTR-02.pdf` | 2026-11-18 (sesión, según grabación original) | 00:17:23 | `5C057ECC56CD6E4EA8DB58FF25A74E0DD868F7B1C404D394D483FC61D2BEC30E` | No (carpeta privada `@uteq.edu.ec`) |
+| EV-04 | `ENTR-02.pdf` | 2026-11-19 (sesión, informada por el equipo) | 00:17:23 | `5C057ECC56CD6E4EA8DB58FF25A74E0DD868F7B1C404D394D483FC61D2BEC30E` | No (carpeta privada `@uteq.edu.ec`) |
 | EV-05 | `ENTR-03.pdf` | 2026-11-21 (sesión, según grabación original) | 00:19:28 | `E6E422851F6CF673B6DAB7E565BF447979B36E0ACDCE21B04A2782102DE00FCA` | No (carpeta privada `@uteq.edu.ec`) |
 | EV-06 | `ENTR-04.pdf` | 2026-11-20 (sesión) | 00:14:43 | `7FDF056E82C02C3E3584ABC48650C68A24F785E33A34F86F5A6998FCB190831B` | No (carpeta privada `@uteq.edu.ec`) |
 | EV-07 | `ENTR-03_CONSENTIMIENTO_ADENDUM.txt` | 2026-11-21 (emisión del adendum; sesión 2026-11-21) | - | `F3CA30A8C3325376F184DDE978D6AF72ACA446006220C8F2FC5FA26BF334401E` | No (carpeta privada `@uteq.edu.ec`) |
@@ -67,7 +67,7 @@ no constituyen consentimiento obtenido con posterioridad a las entrevistas.
 | ID | Nombre de archivo | Fecha | Duración | SHA-256 | Publicada en repo |
 |---|---|---|---|---|---|
 | EV-10 | `ENTR-01_20261118_entrevista.mp4` | 2026-11-18 | 00:21:26 | `A2FD7DB3C5D70E8B813AF5467FC7284CDF03F45B207A54CE28B93182B1F0BC84` | No (carpeta privada `@uteq.edu.ec`) |
-| EV-11 | `ENTR-02_20261118_entrevista.mp4` | 2026-11-18 | 00:17:23 | `4D1FF87FE2BD9112DE725765084B8BE099ED7BE42CFBCE39008377D86C53670C` | No (carpeta privada `@uteq.edu.ec`) |
+| EV-11 | `ENTR-02_20261119_entrevista.mp4` | 2026-11-19 | 00:17:23 | `4D1FF87FE2BD9112DE725765084B8BE099ED7BE42CFBCE39008377D86C53670C` | No (carpeta privada `@uteq.edu.ec`) |
 | EV-12 | `ENTR-03_20261121_entrevista.mp4` | 2026-11-21 | 00:19:28 | `03713F4334838FFCAD17ABC97F7B6979F10C37E8C7310A25499396C21D4C7535` | No (carpeta privada `@uteq.edu.ec`) |
 | EV-13 | `ENTR-04_20261120_entrevista.mp4` | 2026-11-20 | 00:14:43 | `3CECA83A028BD6A3EF4BFB3D7E88326FB04A5251010B9ED4AA4C017B476E26D2` | No (carpeta privada `@uteq.edu.ec`) |
 
@@ -90,12 +90,14 @@ administradora `AD-01`) y la huella del PDF diligenciado; dicho PDF se
 diligenció el 21/11 con base en esa información y se guardó en la carpeta
 privada `@uteq.edu.ec`, sin publicar nombres ni datos de contacto.
 En EV-03 a EV-06 la duración se tomó de los videos EV-10 a EV-13. Las fechas
-son las informadas por el equipo y, cuando existe grabación original, las de
-sus nombres y metadatos: `ENTR-01` y `ENTR-02` son del 18/11, `ENTR-03` es del
-21/11 y `ENTR-04` es del 20/11. El manifiesto había consignado 20/11 para las
-cuatro sesiones; ese dato se corrigió para `ENTR-01`, `ENTR-02` y `ENTR-03`.
-Los archivos de video se renombraron para que su nombre coincida con la fecha
-correspondiente; su contenido y sus SHA-256 no cambiaron.
+son las informadas por el equipo: `ENTR-01` del 18/11, `ENTR-02` del 19/11,
+`ENTR-04` del 20/11 y `ENTR-03` del 21/11. El manifiesto había consignado
+20/11 para las cuatro sesiones; ese dato se corrigió para `ENTR-01`,
+`ENTR-02` y `ENTR-03`. Los archivos de video se renombraron para que su nombre
+coincida con la fecha informada; su contenido y sus SHA-256 no cambiaron.
+Nota: el archivo original de `ENTR-02` lleva en su nombre la fecha 18/11
+(23:18), mientras el equipo informó que la sesión fue el 19/11. Se consigna
+la fecha informada y se deja constancia de la discrepancia.
 
 ## Coincidencia entre `002.pdf` y `ENTR-02`
 
