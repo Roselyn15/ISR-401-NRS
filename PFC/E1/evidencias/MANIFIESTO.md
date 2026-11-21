@@ -59,6 +59,8 @@ código (`ENTR-01` y `ENTR-04`), que la herramienta de transcripción no consign
 como ítem explícito. No se inventan respuestas de consentimiento: `ENTR-02` ya
 tenía ese ítem en su transcripción y `ENTR-03` lo recibe en EV-07 con el texto
 proporcionado. Los originales `ENTR-01.pdf` y `ENTR-04.pdf` no se modifican.
+Estos adendums documentan ítems omitidos por la herramienta de transcripción;
+no constituyen consentimiento obtenido con posterioridad a las entrevistas.
 
 ## Grabaciones de las entrevistas
 
@@ -74,7 +76,9 @@ nombran con el código del participante y la fecha declarada en el archivo. La
 duración se tomó de las propiedades del archivo y la huella SHA-256 del archivo
 mismo. Las transcripciones `ENTR-01.pdf` a `ENTR-04.pdf` corresponden a estas
 grabaciones; EV-03 a EV-06 registran la fecha y duración de la sesión, mientras
-que EV-10 a EV-13 registran los archivos de video originales.
+que EV-10 a EV-13 registran los archivos de video originales. La duración
+medida de `ENTR-04` (00:14:43) es inferior al rango estimado de 15 a 30
+minutos de la guía; se consigna el valor real del archivo.
 
 EV-01 y EV-02 siguen **pendientes de obtención**. No se inventa fecha,
 duración ni huella: hacerlo constituiría evidencia de campo fabricada. En EV-03
