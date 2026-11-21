@@ -40,22 +40,31 @@ autoría y evidencias. No sustituye la explicación que debe darse al docente.
 
 - EV-07, EV-08 y EV-09 se emitieron el 21/11 para documentar ítems que la
   herramienta de transcripción omitió en `ENTR-03`, `ENTR-01` y `ENTR-04`.
-- No cambian la fecha de las entrevistas (20/11) y **no se presentan como
-  consentimiento obtenido después de las entrevistas**. El ítem de depósito en
-  repositorio abierto de `ENTR-03` sigue sin respuesta y no se completó.
+- No modifican la grabación original ni **se presentan como consentimiento
+  obtenido antes de las entrevistas**. El ítem de depósito en repositorio
+  abierto de `ENTR-03` sigue sin respuesta y no se completó.
 
 ## 5. Grabaciones
 
-- EV-10 a EV-13 registran nombre de archivo, fecha declarada, duración y
-  SHA-256 reales de los cuatro videos.
+- EV-10 a EV-13 registran nombre de archivo, fecha, duración y SHA-256 reales
+  de los cuatro videos.
+- Las entrevistas fueron realizadas por el líder del equipo. `ENTR-02` se
+  realizó con la cocinera y `ENTR-03` con la auxiliar de cocina.
 - Dos de esos archivos son byte-a-byte idénticos a grabaciones tituladas como
-  «Reunión con JEANPIERRE ROBINSON ESPINOZA» en OneDrive (18/11 y 21/11). Su
-  condición de entrevistas de campo debe aclararse con evidencia o declararse
-  ante el docente. No se ha alterado su contenido ni sus huellas.
+  «Reunión con JEANPIERRE ROBINSON ESPINOZA» en OneDrive. El título usa el
+  nombre del líder porque fue quien organizó y grabó la sesión; no identifica
+  a la persona entrevistada.
+- La fecha real de esas dos sesiones es la de los archivos originales:
+  `ENTR-02` es del 18/11/2026 y `ENTR-03` es del 21/11/2026. El manifiesto
+  había consignado 20/11 para las cuatro sesiones; ese dato se corrigió para
+  estas dos. Los archivos privados se renombraron para que su nombre coincida
+  con la fecha real. Su contenido y sus huellas SHA-256 no cambiaron.
+- Las fechas de `ENTR-01` y `ENTR-04` se mantienen en 2026-11-20 según lo
+  declarado; no se han verificado contra grabaciones originales distintas.
 
 ## 6. Verificación técnica
 
-- Clon limpio del estado `4800545` compilado con
+- Clon limpio del estado publicado compilado con
   `pdflatex → biber → pdflatex ×2`.
 - Resultado: 19 páginas, pie `Página N de 19`, 0 `??`, 0 `Overfull \hbox`,
   0 `Overfull \vbox` y 0 referencias sin resolver.
