@@ -1,0 +1,62 @@
+\section{Trazabilidad de la evidencia y del an\'alisis}
+
+ Esta secci\'on enlaza los hallazgos citados en el informe con las entrevistas de campo y sus registros privados. La tabla~\ref{tab:trazabilidad} usa los c\'odigos \texttt{ENTR-01} a \texttt{ENTR-04} definidos en la secci\'on~3 y los identificadores \texttt{EV-03} a \texttt{EV-21} del manifiesto \texttt{evidencias/MANIFIESTO.md}. Cada fila corresponde a una afirmaci\'on verificable del texto, no a una cita literal de una participante.
+
+\begin{table}[htbp]
+\centering
+\footnotesize
+\begin{tabularx}{\linewidth}{|p{3.1cm}|p{2.0cm}|X|}
+\hline
+\thdr{Afirmaci\'on o hallazgo} & \thdr{Entrevista} & \thdr{Registro privado en el manifiesto}\\
+\hline
+Cierre de caja de 1 a 2 h y errores por letra poco clara & \texttt{ENTR-04} & \texttt{EV-06} (transcripci\'on), \texttt{EV-13} (video), \texttt{EV-17} (consentimiento), \texttt{EV-21} (audio)\\
+\hline
+Conteo de insumos y actualizaci\'on diferida del stock & \texttt{ENTR-03} & \texttt{EV-05} (transcripci\'on), \texttt{EV-12} (video), \texttt{EV-16} (consentimiento), \texttt{EV-20} (audio)\\
+\hline
+Comanda en papel, avisos de d\'ias sin servicio y domicilio por WhatsApp & \texttt{ENTR-01} & \texttt{EV-03} (transcripci\'on), \texttt{EV-10} (video), \texttt{EV-14} (consentimiento), \texttt{EV-18} (audio)\\
+\hline
+Errores «pocas veces al mes» y cocina con recetas no escritas & \texttt{ENTR-02} & \texttt{EV-04} (transcripci\'on), \texttt{EV-11} (video), \texttt{EV-15} (consentimiento), \texttt{EV-19} (audio)\\
+\hline
+Cambios comunicados de palabra y estados del pedido sin soporte inform\'atico & \texttt{ENTR-03}, \texttt{ENTR-04} & \texttt{EV-05}, \texttt{EV-06} (transcripciones), \texttt{EV-12}, \texttt{EV-13} (videos), \texttt{EV-20}, \texttt{EV-21} (audios)\\
+\hline
+\end{tabularx}
+\caption{Trazabilidad de hallazgos, entrevistas y evidencias privadas.}
+\label{tab:trazabilidad}
+\end{table}
+
+La relaci\'on entre cada transcripci\'on y su video, consentimiento y audio se verifica en el repositorio con el mismo c\'odigo \texttt{ENTR-xx}: el manifiesto registra nombre de archivo, fecha informada, duraci\'on cuando aplica y huella SHA-256. La comprobaci\'on de la huella se realiza sobre el archivo privado custodiado en \texttt{@uteq.edu.ec}; el repositorio p\'ublico no contiene audios, videos, im\'agenes firmadas ni transcripciones. Los adendums \texttt{EV-07} a \texttt{EV-09} documentan \'items omitidos por la herramienta de transcripci\'on y no se presentan como consentimiento previo. El \'item de dep\'osito en repositorio abierto de \texttt{ENTR-03} qued\'o sin respuesta y, por ello, el informe publica solo par\'afrasis an\'onimas.
+
+\subsection{Res\'umenes an\'onimos de las entrevistas de campo}
+
+Los cuatro res\'umenes que siguen se derivan exclusivamente de las par\'afrasis ya incluidas en la secci\'on~3. No reproducen frases textuales, nombres, c\'edulas, tel\'efonos, correos ni firmas, y no incorporan datos nuevos a los ya declarados en el manifiesto.
+
+\begin{description}[leftmargin=18pt,itemsep=4pt]
+    \item[\texttt{ENTR-01} -- Administradora.] Se inform\'o de comandas en papel, avisos de d\'ias sin servicio y pedidos a domicilio gestionados por WhatsApp. Se declar\'o una ocupaci\'on habitual de 25 a 30 personas y de hasta 50 en d\'ias de alta demanda. La descripci\'on de errores y molestias se asocia a la espera y al cierre, sin cifras validadas por la organizaci\'on.
+    \item[\texttt{ENTR-02} -- Cocinera.] Se inform\'o de una preparaci\'on habitual de 25 platos y de hasta 35 en d\'ias de alta demanda, con recetas no escritas. Se se\~nalaron errores poco frecuentes y molestias en la espera, sin una tasa medida de fallas.
+    \item[\texttt{ENTR-03} -- Auxiliar de cocina.] Se inform\'o de 45 pedidos habituales y de hasta 85 en d\'ias de alta demanda, del conteo de insumos, de la actualizaci\'on diferida del stock y de cambios de pedido comunicados de palabra. Tambi\'en se describi\'o el flujo de domicilio por WhatsApp y moto y seis proveedores.
+    \item[\texttt{ENTR-04} -- Cajera.] Se inform\'o de 60 pedidos habituales y de hasta 120 en d\'ias de alta demanda, de un cierre de caja de 1 a 2 h y de errores ocasionales por letra poco clara o por pedidos modificados sin registro. Se describi\'o el uso de efectivo, transferencia y tarjeta.
+\end{description}
+
+\subsection{Matriz objetivo -- pregunta -- instrumento}
+
+La tabla~\ref{tab:matriz_objetivo} muestra la coherencia entre los objetivos de la secci\'on~1, las preguntas que deben responderse en la elicitaci\'on complementaria y el instrumento ya entregado en los ap\'endices. No se a\~naden objetivos ni se modifica el cronograma de la secci\'on~7.
+
+\begin{table}[htbp]
+\centering
+\footnotesize
+\begin{tabularx}{\linewidth}{|p{2.4cm}|X|p{2.7cm}|}
+\hline
+\thdr{Objetivo} & \thdr{Pregunta de elicitaci\'on} & \thdr{Instrumento (ap\'endice)}\\
+\hline
+Reducir el tiempo de registro & ¿C\'omo se registra un pedido y d\'onde se pierde tiempo en horas pico? & Guion de entrevista (A) y gu\'ia de observaci\'on (C)\\
+\hline
+Disminuir errores de transcripci\'on & ¿Qu\'e fallas de lectura o de modificaci\'on aparecen en la comanda? & Guion de entrevista (A) y gu\'ia de observaci\'on (C)\\
+\hline
+Inventario actualizado & ¿C\'omo se registran entradas, salidas y conteos de insumos? & Cuestionario (B) y guion de entrevista (A)\\
+\hline
+Trazabilidad de ventas & ¿Qu\'e datos se consolidan al cierre y en qu\'e formato se entregan? & Guion de entrevista (A) y cuestionario (B)\\
+\hline
+\end{tabularx}
+\caption{Correspondencia entre objetivos, preguntas e instrumentos.}
+\label{tab:matriz_objetivo}
+\end{table}
