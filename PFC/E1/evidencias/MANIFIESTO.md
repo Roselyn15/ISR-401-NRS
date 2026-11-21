@@ -18,6 +18,17 @@ firmados, cédulas, teléfonos ni correos personales de participantes.
   Las citas textuales solo se usan si el consentimiento lo autoriza
   expresamente; en este informe todas las respuestas se parafrasean.
 
+## Procedencia de `ENTR-01` a `ENTR-04`
+
+Las cuatro transcripciones corregidas son evidencia de campo obtenida por los
+integrantes del equipo en el Restaurante Anaranjoa-UX, con consentimiento
+informado previo y usando únicamente códigos de participante. No provienen de
+otra organización ni son ejemplos simulados. Las versiones antiguas o simuladas
+que circularon como material de apoyo quedan excluidas y solo se mencionan en
+la sección «Instrumento usado y material excluido» para documentar por qué no
+se contabilizan. La fecha de cada sesión y la duración real de las grabaciones
+no constan en las transcripciones y permanecen como `PENDIENTE`.
+
 ## Registro de evidencias privadas
 
 | ID | Nombre de archivo | Fecha | Duración | SHA-256 | Publicada en repo |
@@ -27,7 +38,7 @@ firmados, cédulas, teléfonos ni correos personales de participantes.
 | EV-03 | `ENTR-01.pdf` | 2026-11-20 (emisión del PDF; sesión PENDIENTE) | PENDIENTE | `EE80DF0737D5A12622D584B095076FA3B00A5AA2CC50EDFF68D37C97A142CA11` | No (carpeta privada `@uteq.edu.ec`) |
 | EV-04 | `ENTR-02.pdf` | 2026-11-20 (emisión del PDF; sesión PENDIENTE) | PENDIENTE | `5C057ECC56CD6E4EA8DB58FF25A74E0DD868F7B1C404D394D483FC61D2BEC30E` | No (carpeta privada `@uteq.edu.ec`) |
 | EV-05 | `ENTR-03.pdf` | 2026-11-20 (emisión del PDF; sesión PENDIENTE) | PENDIENTE | `E6E422851F6CF673B6DAB7E565BF447979B36E0ACDCE21B04A2782102DE00FCA` | No (carpeta privada `@uteq.edu.ec`) |
-| EV-06 | `ENTR-04.pdf` | 2026-11-20 (emisión del PDF; sesión PENDIENTE) | PENDIENTE (guía prevista 15--30 min) | `7FDF056E82C02C3E3584ABC48650C68A24F785E33A34F86F5A6998FCB190831B` | No (carpeta privada `@uteq.edu.ec`) |
+| EV-06 | `ENTR-04.pdf` | 2026-11-20 (emisión del PDF; sesión PENDIENTE) | PENDIENTE | `7FDF056E82C02C3E3584ABC48650C68A24F785E33A34F86F5A6998FCB190831B` | No (carpeta privada `@uteq.edu.ec`) |
 
 EV-01 y EV-02 siguen **pendientes de obtención**. No se inventa fecha,
 duración ni huella: hacerlo constituiría evidencia de campo fabricada. En EV-03
