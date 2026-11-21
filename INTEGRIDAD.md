@@ -26,6 +26,10 @@ autoría y evidencias. No sustituye la explicación que debe darse al docente.
 - Como consecuencia, el orden de fechas de autor no coincide con el orden
   topológico de los commits. No se realizará otra reescritura para disimularlo
   ni para trasladar la responsabilidad a otros integrantes.
+- El informe incluye la declaración individual de uso de IA de Anthony con
+  herramienta (OpenCode, modelo `big-pickle`), versión (sesión del 21/11/2026),
+  propósito y verificación. El texto debe ser revisado y suscrito por el propio
+  integrante; los demás integrantes no pueden firmarlo en su lugar.
 
 ## 3. Evidencias recibidas
 
