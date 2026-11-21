@@ -64,8 +64,12 @@ autoría y evidencias. No sustituye la explicación que debe darse al docente.
   había consignado 20/11 para las cuatro sesiones; ese dato se corrigió para
   estas dos. Los archivos privados se renombraron para que su nombre coincida
   con la fecha real. Su contenido y sus huellas SHA-256 no cambiaron.
-- Las fechas de `ENTR-01` y `ENTR-04` se mantienen en 2026-11-20 según lo
-  declarado; no se han verificado contra grabaciones originales distintas.
+- Según lo informado por el equipo, `ENTR-01` se realizó el miércoles 18/11,
+  `ENTR-02` el 18/11, `ENTR-03` el 21/11 y `ENTR-04` el 20/11. El manifiesto
+  había declarado 20/11 para las cuatro; se corrigió ese dato en `ENTR-01`,
+  `ENTR-02` y `ENTR-03`. Los archivos de video se renombraron para que su
+  nombre coincida con la fecha informada; su contenido y sus huellas SHA-256
+  no cambiaron.
 
 ## 6. Verificación técnica
 
