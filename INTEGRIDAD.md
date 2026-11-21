@@ -17,10 +17,15 @@ autoría y evidencias. No sustituye la explicación que debe darse al docente.
 
 - Los commits `3deea7b` y `b5ed20a`, con autoría de Naranjo Alfonzo Anthony
   Alexander, tienen **fechas de autor fijadas manualmente** para el 19/11 y
-  20/11, tomadas como referencia de los ZIP de trabajo fechados esos días.
-  Las horas consignadas no son horas reales de ejecución.
+  20/11. Las horas consignadas no son horas reales de ejecución.
+- Según la explicación del equipo, quien fijó esas fechas fue el propio
+  Anthony; los demás integrantes no lo sabían. Anthony tiene poco conocimiento
+  de Git y estaba usando ayuda de una herramienta de inteligencia artificial
+  para trabajar en el repositorio, y esa ayuda produjo ese resultado. Se
+  desconoce la hora real en que realizó ese trabajo.
 - Como consecuencia, el orden de fechas de autor no coincide con el orden
-  topológico de los commits. No se realizará otra reescritura para disimularlo.
+  topológico de los commits. No se realizará otra reescritura para disimularlo
+  ni para trasladar la responsabilidad a otros integrantes.
 
 ## 3. Evidencias pendientes
 
