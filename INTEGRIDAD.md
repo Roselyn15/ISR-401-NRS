@@ -27,7 +27,7 @@ autoría y evidencias. No sustituye la explicación que debe darse al docente.
   topológico de los commits. No se realizará otra reescritura para disimularlo
   ni para trasladar la responsabilidad a otros integrantes.
 
-## 3. Evidencias pendientes
+## 3. Evidencias recibidas
 
 - EV-01 (carta de aceptación firmada) se recibió el 21/11 como copia digital
   de un documento con fecha impresa 18/11. Se guardó en la carpeta privada
@@ -43,11 +43,20 @@ autoría y evidencias. No sustituye la explicación que debe darse al docente.
 
 ## 4. Consentimiento y adendums
 
-- El modelo de consentimiento informado está disponible en el repositorio. Los
-  originales firmados **aún no han sido recibidos**: otro integrante debe
-  enviar las fotografías. No se afirma por tanto que haya consentimiento
-  previo a las entrevistas. Cuando se reciban, se guardarán en
-  `@uteq.edu.ec` y se registrarán en `MANIFIESTO.md`.
+- El modelo de consentimiento informado está disponible en el repositorio.
+  Los cuatro originales firmados se recibieron como fotografías el 21/11 y se
+  guardan en `@uteq.edu.ec`. Se renombraron con el formato de la rúbrica
+  `AAAA-MM-DD_Rol_Codigo_Consentimiento`, sin nombres personales, y se
+  registraron como EV-14 a EV-17 en `MANIFIESTO.md` con su SHA-256.
+- La fecha manuscrita de los formularios no puede leerse con fiabilidad en la
+  copia digital. Por eso **no se afirma que el consentimiento haya sido
+  previo** a las entrevistas; la fecha del nombre de archivo corresponde a la
+  sesión que ampara cada formulario. Las imágenes conservan cédulas y firmas y
+  no se publican en el repositorio.
+- Los audios de las cuatro entrevistas se recibieron el 21/11 en `audio.p.zip`
+  y se registraron como EV-18 a EV-21. Se extrajeron a `@uteq.edu.ec` y se
+  renombraron para usar los códigos `ENTR-01` a `ENTR-04`; el contenido y las
+  huellas SHA-256 no cambiaron.
 - EV-07, EV-08 y EV-09 se emitieron el 21/11 para documentar ítems que la
   herramienta de transcripción omitió en `ENTR-03`, `ENTR-01` y `ENTR-04`.
 - No modifican la grabación original ni **se presentan como consentimiento
@@ -58,17 +67,20 @@ autoría y evidencias. No sustituye la explicación que debe darse al docente.
 
 - EV-10 a EV-13 registran nombre de archivo, fecha, duración y SHA-256 reales
   de los cuatro videos.
-- Las entrevistas fueron realizadas por el líder del equipo. `ENTR-02` se
-  realizó con la cocinera y `ENTR-03` con la auxiliar de cocina.
+- Las entrevistas fueron realizadas por el líder del equipo. `ENTR-01` se
+  realizó con la administradora, `ENTR-02` con la cocinera, `ENTR-03` con la
+  auxiliar de cocina y `ENTR-04` con la cajera.
 - Dos de esos archivos son byte-a-byte idénticos a grabaciones tituladas como
   «Reunión con JEANPIERRE ROBINSON ESPINOZA» en OneDrive. El título usa el
   nombre del líder porque fue quien organizó y grabó la sesión; no identifica
   a la persona entrevistada.
-- La fecha real de esas dos sesiones es la de los archivos originales:
-  `ENTR-02` es del 18/11/2026 y `ENTR-03` es del 21/11/2026. El manifiesto
-  había consignado 20/11 para las cuatro sesiones; ese dato se corrigió para
-  estas dos. Los archivos privados se renombraron para que su nombre coincida
-  con la fecha real. Su contenido y sus huellas SHA-256 no cambiaron.
+- `ENTR-03` corresponde al 21/11/2026 según el archivo original. En el nombre
+  original de `ENTR-02` aparece 18/11 a las 23:18, pero el equipo informó que
+  la sesión fue el 19/11; se registra esa fecha informada y se deja constancia
+  de la discrepancia. El manifiesto había consignado 20/11 para las cuatro
+  sesiones; ese dato se corrigió. Los archivos privados se renombraron para que
+  su nombre coincida con la fecha informada. Su contenido y sus huellas
+  SHA-256 no cambiaron.
 - Según lo informado por el equipo, `ENTR-01` se realizó el miércoles 18/11,
   `ENTR-02` el 19/11, `ENTR-04` el 20/11 y `ENTR-03` el 21/11. El manifiesto
   había declarado 20/11 para las cuatro; se corrigió ese dato en `ENTR-01`,

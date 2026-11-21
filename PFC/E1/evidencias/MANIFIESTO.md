@@ -1,8 +1,10 @@
 # Manifiesto de evidencias privadas — TA-PFC-E1
 
 Estado al 21 de noviembre de 2026: **no se ha publicado ninguna evidencia privada
-en este repositorio**. No hay audios, transcripciones, actas, consentimientos
-firmados, cédulas, teléfonos ni correos personales de participantes.
+en este repositorio**. Los audios, videos, transcripciones, consentimientos
+firmados y actas se guardan en la carpeta privada `@uteq.edu.ec`. Aquí solo se
+registran nombre de archivo, fecha, duración y huella SHA-256. No se publican
+cédulas, teléfonos, correos ni firmas de participantes.
 
 ## Política de custodia
 
@@ -21,8 +23,11 @@ firmados, cédulas, teléfonos ni correos personales de participantes.
 ## Procedencia de `ENTR-01` a `ENTR-04`
 
 Las cuatro transcripciones corregidas son evidencia de campo obtenida por los
-integrantes del equipo en El Balcón Restaurant, con consentimiento
-informado previo y usando únicamente códigos de participante. No provienen de
+integrantes del equipo en El Balcón Restaurant, con formularios de
+consentimiento informado firmados recibidos el 21/11 y usando únicamente
+códigos de participante. La fecha manuscrita de esos formularios no puede
+leerse con fiabilidad en la copia digital, por lo que no se afirma que el
+consentimiento haya sido previo a las sesiones. No provienen de
 otra organización ni son ejemplos simulados. Las versiones antiguas o simuladas
 que circularon como material de apoyo quedan excluidas y solo se mencionan en
 la sección «Instrumento usado y material excluido» para documentar por qué no
@@ -99,9 +104,48 @@ Nota: el archivo original de `ENTR-02` lleva en su nombre la fecha 18/11
 (23:18), mientras el equipo informó que la sesión fue el 19/11. Se consigna
 la fecha informada y se deja constancia de la discrepancia.
 
+## Consentimientos informados firmados
+
+Los cuatro originales firmados se recibieron como fotografías el 21/11 y se
+custodian en `@uteq.edu.ec`. Se aplica el formato de nombre de la rúbrica
+`AAAA-MM-DD_Rol_Codigo_Consentimiento`, sin nombres personales. La fecha del
+nombre de archivo corresponde a la sesión que ampara cada formulario; la fecha
+manuscrita del documento no puede leerse con fiabilidad en la copia digital,
+por lo que **no se afirma que el consentimiento haya sido previo**.
+
+| ID | Nombre de archivo | Fecha | Duración | SHA-256 | Publicada en repo |
+|---|---|---|---|---|---|
+| EV-14 | `2026-11-18_Administradora_ENTR-01_Consentimiento.jpeg` | 2026-11-18 (sesión amparada) | - | `6CE0B4FA73E1BA6788ACEC3742E76C695EB4687F6CFB7126D310102C7C96F92C` | No (carpeta privada `@uteq.edu.ec`) |
+| EV-15 | `2026-11-19_Cocinera_ENTR-02_Consentimiento.jpeg` | 2026-11-19 (sesión amparada) | - | `AF9917E26754A8A87638650CD7E50AE28DFAFBA82633ECB47BAED726F0A4AAFA` | No (carpeta privada `@uteq.edu.ec`) |
+| EV-16 | `2026-11-21_AuxiliarDeCocina_ENTR-03_Consentimiento.jpeg` | 2026-11-21 (sesión amparada) | - | `63A902666819D166E2B907AA9F3FD7B19F94CAB7C4006565AE7AC1A7A85D314E` | No (carpeta privada `@uteq.edu.ec`) |
+| EV-17 | `2026-11-20_Cajera_ENTR-04_Consentimiento.jpeg` | 2026-11-20 (sesión amparada) | - | `6CEC5CBBBBE4D3448674716F12DE3C36E864FC1E8AE5C1E19CB26B99662D2011` | No (carpeta privada `@uteq.edu.ec`) |
+
+Las imágenes conservan nombres, cédulas y firmas de los participantes; por eso
+no se suben al repositorio. En el informe solo se usan los códigos `ENTR-01` a
+`ENTR-04` y los roles, sin datos identificadores.
+
+## Audios de las entrevistas
+
+Los audios se recibieron el 21/11 dentro del ZIP `audio.p.zip` y se extrajeron
+a la carpeta privada `@uteq.edu.ec`. Los nombres originales del ZIP eran
+`ENTRE-01.mp3` y `ENTRE-04.mp3`; se renombraron a `ENTR-01` y `ENTR-04` para
+mantener el mismo código que las entrevistas. El contenido y las huellas
+SHA-256 no cambiaron. Las duraciones se tomaron de las propiedades del archivo
+y difieren ligeramente de las de los videos.
+
+| ID | Nombre de archivo | Fecha | Duración | SHA-256 | Publicada en repo |
+|---|---|---|---|---|---|
+| EV-18 | `ENTR-01_audio_20261118.mp3` | 2026-11-18 | 00:21:59 | `069988E6B4213D7D4D00BA920EF550EFA931A4A018E7D9E289D6305AB684F795` | No (carpeta privada `@uteq.edu.ec`) |
+| EV-19 | `ENTR-02_audio_20261119.mp3` | 2026-11-19 | 00:16:49 | `A269CBE1FEEFA5BC6C57023FDD7D2DF534262D1498C9059AFFC0301C1F2C8BEA` | No (carpeta privada `@uteq.edu.ec`) |
+| EV-20 | `ENTR-03_audio_20261121.mp3` | 2026-11-21 | 00:18:51 | `B236CA0E449195F4C36D364258C7C27859D9B99A0AA3CC0C11A5A1E8A8228084` | No (carpeta privada `@uteq.edu.ec`) |
+| EV-21 | `ENTR-04_audio_20261120.mp3` | 2026-11-20 | 00:15:05 | `09BD385A81E3EA0F21A2387A3516A5ACCC071EF2A714CA1D6307968EBBDA5261` | No (carpeta privada `@uteq.edu.ec`) |
+
+El ZIP `audio.p.zip` y las imágenes originales `01.jpeg` a `04.jpeg` no se
+suben al repositorio: solo se conservan en almacenamiento privado.
+
 ## Coincidencia entre `002.pdf` y `ENTR-02`
 
-Ambos archivos corresponden a la misma participante: ayudante de cocina con dos
+Ambos archivos corresponden a la misma participante: cocinera con dos
 años en el restaurante, 25 platos en día normal y 35 en día de mayor movimiento,
 registro en cuaderno y consentimiento afirmativo. `002.pdf` la identifica como
 `NT-002` y `ENTR-02.pdf` como `ENTR-02`. Se contabiliza **una sola participante**, identificada en el informe como
