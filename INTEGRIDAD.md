@@ -41,8 +41,13 @@ autoría y evidencias. No sustituye la explicación que debe darse al docente.
   en `@uteq.edu.ec` y en el repositorio solo se publican su nombre de archivo,
   fecha y SHA-256. No se inventaron nombres ni datos de contacto.
 
-## 4. Adendums de consentimiento
+## 4. Consentimiento y adendums
 
+- El modelo de consentimiento informado está disponible en el repositorio. Los
+  originales firmados **aún no han sido recibidos**: otro integrante debe
+  enviar las fotografías. No se afirma por tanto que haya consentimiento
+  previo a las entrevistas. Cuando se reciban, se guardarán en
+  `@uteq.edu.ec` y se registrarán en `MANIFIESTO.md`.
 - EV-07, EV-08 y EV-09 se emitieron el 21/11 para documentar ítems que la
   herramienta de transcripción omitió en `ENTR-03`, `ENTR-01` y `ENTR-04`.
 - No modifican la grabación original ni **se presentan como consentimiento
