@@ -4,7 +4,7 @@ Proyecto Fin de Curso: **Sistema de Gestión para Restaurante con Módulo de
 Inteligencia Artificial**, organización cliente: El Balcón Restaurant
 (Quevedo, Los Ríos).
 
-**Nombre del repositorio (norma 7.1):** `ISR-401-NRS`, público en GitHub.
+**Nombre del repositorio (norma 7.1):** `ISR401-NRS`, público en GitHub.
 Corresponde al Paralelo B; la sigla `NRS` identifica al equipo por las iniciales
 de los apellidos Naranjo, Robinson y Sánchez.
 
