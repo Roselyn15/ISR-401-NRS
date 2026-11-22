@@ -16,6 +16,17 @@ de los apellidos Naranjo, Robinson y Sánchez.
 - Naranjo Alfonzo Anthony Alexander — elicitación y modelado; técnicas por fuente, instrumentos, diagrama de contexto y matriz poder–interés (fuentes `.puml`), tabla de las ocho perspectivas.
 - Sánchez Centeno Roselyn Andreina — análisis y calidad documental; partes interesadas, estrategia de participación, coherencia y trazabilidad, referencias IEEE y revisión del PDF.
 
+## Matriz de aportes
+
+| Integrante | Secciones del informe | Instrumentos y artefactos |
+|---|---|---|
+| Robinson Espinoza Jeanpierre | 1 (ficha, alcance, visión, objetivos, restricciones y criterios de medición), 3 (contexto) y 8 (gestión y custodia) | Modelos `.puml` y figuras, custodia de evidencias, integración final y compilación |
+| Naranjo Alfonzo Anthony Alexander | 3 (contexto) y 7 (plan de elicitación) | Guion de entrevista, cuestionario, guía de observación y taller, matriz poder–interés |
+| Sánchez Centeno Roselyn Andreina | 2 (partes interesadas), 5 (trazabilidad), 6 (análisis crítico) y 10 (declaración de IA) | Revisión de referencias IEEE, coherencia documental, trazabilidad y verificación del PDF |
+
+La asignación describe la responsabilidad principal de cada integrante sobre los
+archivos versionados; la revisión final del documento es responsabilidad conjunta.
+
 ## Estructura prevista
 
 ```

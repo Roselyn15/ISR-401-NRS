@@ -65,6 +65,7 @@ La tabla~\ref{tab:cronograma} planifica el trabajo desde la semana 4 hasta la se
 \end{table}
 
 \subsection{Plan de comunicaci\'on con la organizaci\'on}
+\label{sec:comunicacion}
 La tabla~\ref{tab:comunicacion} precisa con qui\'en se comunica el equipo, en qu\'e momento del plan, por qu\'e canal y con qu\'e frecuencia. Las sesiones S1 a S5 corresponden al cronograma propuesto en la secci\'on~7; las fechas quedan sujetas a la disponibilidad confirmada por El Balcón Restaurant.
 
 \begin{table}[htbp]
@@ -120,7 +121,30 @@ R7 & Carga acad\'emica concurrente en semana 16 & Medio & Cerrar fuentes y compi
 \label{tab:riesgos}
 \end{table}
 
+La tabla~\ref{tab:gobierno_riesgos} completa los riesgos con probabilidad, responsable y se\~nal de alerta. La probabilidad es una estimaci\'on de planificaci\'on, no un dato medido.
+
+\begin{table}[htbp]
+\centering
+\footnotesize
+\begin{tabularx}{\linewidth}{|p{1.0cm}|p{1.6cm}|p{2.6cm}|X|}
+\hline
+\thdr{ID} & \thdr{Prob.} & \thdr{Responsable} & \thdr{Se\~nal de alerta y acci\'on}\\
+\hline
+R1 & Media & L\'ider y AD-01 & Sin agenda antes de S1: reprogramar y enviar resumen breve.\\
+\hline
+R3 & Media & L\'ider y COC-01 & Cambio de rol antes de S2: repetir observaci\'on con el reemplazo.\\
+\hline
+R8 & Alta & L\'ider y custodio & Sin ratificaci\'on o respuesta sobre dep\'osito: solo par\'afrasis an\'onimas.\\
+\hline
+R9 & Media & Responsable de calidad & Nueva discrepancia de fecha: registrar en \texttt{INTEGRIDAD.md}, sin reescribir historial.\\
+\hline
+\end{tabularx}
+\caption{Gobierno de riesgos: probabilidad, responsable y se\~nal de alerta.}
+\label{tab:gobierno_riesgos}
+\end{table}
+
 \subsection{\'Etica, consentimiento y custodia}
+\label{sec:custodia}
 El tratamiento de datos se rige por la LOPDP \cite{lopdp2021} y por el C\'odigo de \'Etica de la ACM \cite{acm2018}. Se emplean c\'odigos de rol, se excluyen c\'edulas, tel\'efonos, correos personales, audios y firmas del repositorio p\'ublico, y los cuatro originales firmados se recibieron como fotografías el 21/11, se custodian en la carpeta institucional privada \texttt{@uteq.edu.ec} y se registran como EV-14 a EV-17 con el formato \texttt{AAAA-MM-DD\_Rol\_Codigo\_Consentimiento}, sin nombres personales. La fecha manuscrita de cada formulario no puede leerse con fiabilidad en la copia digital, por lo que no se afirma que el consentimiento haya sido previo a las sesiones. El modelo en blanco se entrega en \texttt{evidencias/MODELO\_CONSENTIMIENTO\_INFORMADO\_SGR1.tex}; el repositorio incluye el modelo en blanco, sin datos personales, y remite al manifiesto para el registro de los originales firmados. La carta de aceptaci\'on y el registro de primer contacto siguen la misma regla. Los audios y videos de las cuatro entrevistas, las transcripciones y las actas permanecen en la carpeta privada; el repositorio solo publica sus nombres de archivo, fechas, duraciones y huellas SHA-256. Este procedimiento evita exponer datos personales y permite al docente verificar la custodia sin acceder a los originales desde un repositorio abierto.
 
 \subsection{Verificaci\'on de la evidencia de campo}

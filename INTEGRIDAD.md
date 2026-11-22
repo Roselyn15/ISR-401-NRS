@@ -26,6 +26,8 @@ autoría y evidencias. No sustituye la explicación que debe darse al docente.
 - Como consecuencia, el orden de fechas de autor no coincide con el orden
   topológico de los commits. No se realizará otra reescritura para disimularlo
   ni para trasladar la responsabilidad a otros integrantes.
+- El informe declara el uso de OpenCode (`big-pickle`) y de Claude (Claude
+  Sonnet 5.5), con fechas del 19 al 21/11/2026, propósito y verificación.
 - El informe incluye la declaración individual de uso de IA de Anthony con
   herramienta (OpenCode, modelo `big-pickle`), versión (sesión del 21/11/2026),
   propósito y verificación. El texto debe ser revisado y suscrito por el propio
@@ -98,6 +100,12 @@ autoría y evidencias. No sustituye la explicación que debe darse al docente.
 - `ENTR-03` corresponde al 21/11, pero el informe ya la citaba en commits del
   20/11. Se deja constancia de ese desajuste entre la fecha de la sesión y la
   fecha de los commits que citan la evidencia; no se reescribe el historial.
+  La entrevista se realizó efectivamente el 21/11, el mismo día del cierre de
+  la entrega, según lo informado por el equipo. Se desconoce el origen del
+  desajuste en los borradores del 20/11: no hay mensaje, captura ni registro
+  que lo explique y, por ello, no se ofrece una explicación inventada. Las
+  afirmaciones del informe que dependen de `ENTR-03` se mantienen solo como lo
+  informado por ese rol y quedan sujetas a confirmación con el responsable.
 
 ## 6. Verificación técnica
 

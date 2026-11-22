@@ -6,13 +6,13 @@ El sistema a desarrollar se denomina \textbf{Sistema de Gesti\'on para Restauran
 \subsection{Problema u oportunidad}
 La operaci\'on de un restaurante concentra en un mismo turno la atenci\'on en sala, el registro de pedidos, la preparaci\'on en cocina, el control de insumos, la facturaci\'on y la atenci\'on de pedidos a domicilio. Cuando estos procesos se apoyan en registros manuales y en comunicaci\'on verbal, aparecen demoras en horas pico, susceptibilidad a errores en la transcripci\'on de pedidos y dificultad para consultar el estado real del inventario. La norma ISO/IEC/IEEE 29148:2018, en las cl\'ausulas 6.2.3.3 y 6.3.3.2, trata respectivamente la definici\'on del problema o la oportunidad y la preparaci\'on de la definici\'on de las necesidades y los requisitos de las partes interesadas \cite{iso29148}; en consecuencia, esta entrega se limita a acordar la visi\'on, el alcance, el contexto y la planificaci\'on de la elicitaci\'on, sin adelantar soluciones tecnol\'ogicas. La identificaci\'on de partes interesadas y la delimitaci\'on del contexto se tratan en los fundamentos de ingenier\'ia de requisitos \cite{pohl2025}, mientras que la selecci\'on de t\'ecnicas seg\'un la fuente y el tipo de conocimiento se sustenta en el syllabus IREB \cite{ireb2026}.
 
-\emph{Estado de validaci\'on:} el enunciado del problema se formul\'o a partir del dominio de negocio y ser\'a confirmado, corregido o descartado con el responsable de El Balcón Restaurant. Las cifras incorporadas en la secci\'on~6 provienen de los informes de las cuatro entrevistas de campo \texttt{ENTR-01} a \texttt{ENTR-04}; se presentan como lo informado por cada rol, no como mediciones validadas por la organizaci\'on, y quedan sujetas a confirmaci\'on con el responsable.
+\emph{Estado de validaci\'on:} el enunciado del problema se formul\'o a partir del dominio de negocio y ser\'a confirmado, corregido o descartado con el responsable de El Balcón Restaurant. Las cifras incorporadas en la secci\'on~\ref{sec:contexto} provienen de los informes de las cuatro entrevistas de campo \texttt{ENTR-01} a \texttt{ENTR-04}; se presentan como lo informado por cada rol, no como mediciones validadas por la organizaci\'on, y quedan sujetas a confirmaci\'on con el responsable.
 
 \subsection{Objetivo general}
 Caracterizar la operaci\'on real del El Balcón Restaurant y delimitar un sistema de gesti\'on asistido por inteligencia artificial que integre pedidos, cocina, inventario y ventas, con supervisi\'on humana sobre las decisiones cr\'iticas, como base para la especificaci\'on de requisitos de las entregas posteriores del PFC.
 
 \subsection{Declaraci\'on de visi\'on}
-Para el personal de sala, cocina, caja e inventario de El Balcón Restaurant que necesita registrar y consultar pedidos, insumos y ventas sin depender de transcripciones manuales durante el turno, el SGR-IA es un sistema de gesti\'on asistido por inteligencia artificial que integra esos flujos con estados visibles y recomendaciones explicables sujetas a confirmaci\'on humana. Esta declaraci\'on recoge la visi\'on propuesta por el equipo a partir de las cuatro entrevistas de campo (\texttt{ENTR-01} a \texttt{ENTR-04}) y queda sujeta a validaci\'on con AD-01 en la sesi\'on~S1 del plan de elicitaci\'on (secci\'on~7). No fija soluciones tecnol\'ogicas ni metas num\'ericas adicionales a las ya registradas como referencias preliminares.
+Para el personal de sala, cocina, caja e inventario de El Balcón Restaurant que necesita registrar y consultar pedidos, insumos y ventas sin depender de transcripciones manuales durante el turno, el SGR-IA es un sistema de gesti\'on asistido por inteligencia artificial que integra esos flujos con estados visibles y recomendaciones explicables sujetas a confirmaci\'on humana. Esta declaraci\'on recoge la visi\'on propuesta por el equipo a partir de las cuatro entrevistas de campo (\texttt{ENTR-01} a \texttt{ENTR-04}) y queda sujeta a validaci\'on con AD-01 en la sesi\'on~S1 del plan de elicitaci\'on (secci\'on~\ref{sec:plan_elicitacion}). No fija soluciones tecnol\'ogicas ni metas num\'ericas adicionales a las ya registradas como referencias preliminares.
 
 \subsection{Objetivos de negocio medibles}
 Los siguientes objetivos son metas propuestas para la elicitaci\'on y el dise\~no. No se dispone de una l\'inea base medida y validada por la organizaci\'on; se registra una referencia preliminar tomada de las entrevistas y la meta definitiva se validar\'a con el responsable antes de fijarse:
@@ -24,10 +24,34 @@ Los siguientes objetivos son metas propuestas para la elicitaci\'on y el dise\~n
     \item \textbf{Mejorar la trazabilidad de ventas.} Generar un resumen diario de ventas y productos m\'as solicitados sin transcripci\'on manual adicional, disponible para el responsable antes del cierre de caja.
 \end{enumerate}
 
+\subsection{Criterios de medici\'on de los objetivos}
+La tabla~\ref{tab:criterios} expresa cada objetivo como criterio verificable. Las condiciones est\'an formuladas en modo condicional porque la l\'inea base, la fuente de datos y la persona responsable de la medici\'on deben confirmarse con AD-01; no se introducen cifras nuevas.
+
+\begin{table}[htbp]
+\centering
+\footnotesize
+\begin{tabularx}{\linewidth}{|p{2.6cm}|p{3.1cm}|X|p{2.4cm}|}
+\hline
+\thdr{Objetivo} & \thdr{M\'etodo de medici\'on} & \thdr{Fuente y momento de la l\'inea base} & \thdr{Responsable propuesto}\\
+\hline
+Tiempo de registro & Cronometraje de pedidos antes y despu\'es del prototipo & Registro de pedidos de S2, previa confirmaci\'on de AD-01 & AD-01 y COC-01\\
+\hline
+Errores de transcripci\'on & Conteo de pedidos con errores sobre muestra acordada & Revisi\'on de comandas en S2, sin registro actual confirmado & AD-01 y CAJ-01\\
+\hline
+Inventario actualizado & Conciliaci\'on entre registro y conteo f\'isico & Entradas y salidas de S3, a confirmar con INV-01 & INV-01\\
+\hline
+Trazabilidad de ventas & Verificaci\'on del resumen diario antes del cierre & Formato de caja acordado en S3 & AD-01 y CAJ-01\\
+\hline
+\end{tabularx}
+\caption{Criterios de medici\'on propuestos, sujetos a confirmaci\'on.}
+\label{tab:criterios}
+\end{table}
+
 \section{Alcance del sistema}
+\label{sec:alcance}
 
 \subsection{Dentro del alcance}
-\begin{itemize}[leftmargin=18pt,itemsep=2pt]
+\begin{itemize}[leftmargin=18pt,itemsep=0pt]
     \item Registro y seguimiento de pedidos de sala y de entrega a domicilio, con estados visibles para sala y cocina.
     \item Gesti\'on de reservas y de solicitudes especiales de los clientes, con registro de la informaci\'on relevante para cocina.
     \item Control de inventario de insumos, entradas, salidas, alertas de reposici\'on y conciliaci\'on semanal.
@@ -38,7 +62,7 @@ Los siguientes objetivos son metas propuestas para la elicitaci\'on y el dise\~n
 \end{itemize}
 
 \subsection{Fuera del alcance}
-\begin{itemize}[leftmargin=18pt,itemsep=2pt]
+\begin{itemize}[leftmargin=18pt,itemsep=0pt]
     \item Desarrollo de una aplicaci\'on m\'ovil propia para clientes o de un marketplace de delivery externo.
     \item Integraci\'on con pasarelas de pago, bancos o con el sistema de facturaci\'on electr\'onica del SRI.
     \item Automatizaci\'on de la preparaci\'on de alimentos o sustituci\'on del criterio del personal de cocina en decisiones de higiene, alergias o seguridad alimentaria.
@@ -47,15 +71,18 @@ Los siguientes objetivos son metas propuestas para la elicitaci\'on y el dise\~n
 \end{itemize}
 
 \section{Restricciones principales}
-\begin{itemize}[leftmargin=18pt,itemsep=2pt]
+\begin{itemize}[leftmargin=18pt,itemsep=0pt]
     \item \textbf{Restricci\'on legal y \'etica:} el tratamiento de datos del personal y de los clientes se rige por la Ley Org\'anica de Protecci\'on de Datos Personales del Ecuador \cite{lopdp2021} y por el C\'odigo de \'Etica de la ACM \cite{acm2018}. No se publican datos personales, grabaciones ni documentos firmados en el repositorio p\'ublico.
     \item \textbf{Restricci\'on de supervisi\'on:} las recomendaciones del m\'odulo de inteligencia artificial son orientativas; la decisi\'on final permanece en una persona responsable.
     \item \textbf{Restricci\'on econ\'omica y tecnol\'ogica:} el prototipo se desarrolla con recursos acad\'emicos, sin licencias de pago y con dependencia de la conectividad disponible en el local.
     \item \textbf{Restricci\'on de tiempo:} el cronograma de la asignatura finaliza en la semana 17 del SPA 2026--2027; la gesti\'on del trabajo se organiza seg\'un los principios del PMBOK \cite{pmbok2021}.
-    \item \textbf{Restricci\'on de Alcance:} la entrega 1 no incluye requisitos detallados ni dise\~no de soluci\'on; esos productos se derivan de la elicitaci\'on planificada en la secci\'on~7.
+    \item \textbf{Restricci\'on de Alcance:} la entrega 1 no incluye requisitos detallados ni dise\~no de soluci\'on; esos productos se derivan de la elicitaci\'on planificada en la secci\'on~\ref{sec:plan_elicitacion}.
 \end{itemize}
 
+\subsection{Supuestos y dependencias}
+La planificaci\'on se apoya en tres supuestos que deben confirmarse: (i) AD-01 estar\'a disponible para validar la visi\'on, los roles y las metas en las sesiones S1 y S5; (ii) el personal de cocina y caja podr\'a participar en la observaci\'on y en la entrevista focalizada de S2 y S3; y (iii) la documentaci\'on con consentimiento podr\'a custodiarse en la carpeta institucional privada. Dependen adem\'as de la conectividad disponible en el local y de que las metas num\'ericas queden sujetas a la confirmaci\'on de la l\'inea base. Si alg\'un supuesto no se cumple, el plan se ajusta sin modificar las evidencias ya registradas.
+
 \section{Declaraci\'on de uso de inteligencia artificial}
-Se utiliz\'o asistencia de inteligencia artificial como apoyo para la revisi\'on de redacci\'on y la verificaci\'on de la compilaci\'on \LaTeX{}. Herramienta: asistente integrado del entorno OpenCode (modelo \texttt{big-pickle}) y revisor autom\'atico independiente; versi\'on: sesiones de 19 y 21 de noviembre de 2026. Prop\'osito: detectar incoherencias formales y comprobar que el documento regenera el PDF con \texttt{pdflatex}, \texttt{biber} y tres pasadas adicionales de \texttt{pdflatex}. Verificaci\'on: se ejecut\'o localmente la secuencia de compilaci\'on descrita en \texttt{README.md}, se revisaron referencias cruzadas y formato, y se comprob\'o que el PDF regenerado no deja referencias sin resolver. No se realiz\'o una validaci\'on externa ni un cotejo individual de cada afirmaci\'on. El contenido t\'ecnico y las decisiones de alcance son de autor\'ia del equipo.
+Se utiliz\'o asistencia de inteligencia artificial como apoyo para la revisi\'on de redacci\'on y la verificaci\'on de la compilaci\'on \LaTeX{}. Herramienta 1: asistente integrado del entorno OpenCode (modelo \texttt{big-pickle}) y revisor autom\'atico independiente; versi\'on: sesiones de 19 y 21 de noviembre de 2026. Herramienta 2: Claude, versi\'on Claude Sonnet 5.5; fechas de uso: 19, 20 y 21 de noviembre de 2026. Prop\'osito de ambas: detectar incoherencias formales, revisar la redacci\'on y comprobar que el documento regenera el PDF con \texttt{pdflatex}, \texttt{biber} y tres pasadas adicionales de \texttt{pdflatex}. Verificaci\'on: se ejecut\'o localmente la secuencia de compilaci\'on descrita en \texttt{README.md}, se revisaron referencias cruzadas y formato, y se comprob\'o que el PDF regenerado no deja referencias sin resolver. No se realiz\'o una validaci\'on externa ni un cotejo individual de cada afirmaci\'on. El contenido t\'ecnico y las decisiones de alcance son de autor\'ia del equipo.
 
 \paragraph{Declaraci\'on individual de Naranjo Alfonzo Anthony Alexander.} Herramienta: asistente de inteligencia artificial integrado en el entorno OpenCode, modelo \texttt{big-pickle}, sesi\'on del 21/11/2026. Prop\'osito: apoyo en el uso de Git y en la redacci\'on de los archivos de elicitaci\'on, contexto y matriz poder--inter\'es. Verificaci\'on: revisi\'on de los cambios incorporados al informe y comprobaci\'on de la compilaci\'on conjunta desde el repositorio. La fijaci\'on manual de fechas de autor en los commits \texttt{3deea7b} y \texttt{b5ed20a} ocurri\'o durante ese proceso y se declara en \texttt{INTEGRIDAD.md}.
