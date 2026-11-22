@@ -28,7 +28,9 @@ PFC/E1/
 │   ├── 02_partes_interesadas.tex
 │   ├── 03_contexto.tex
 │   ├── 03_plan_elicitacion.tex
-│   └── 04_gestion_proyecto.tex
+│   ├── 04_gestion_proyecto.tex
+│   ├── 05_trazabilidad.tex
+│   └── 06_analisis_critico.tex
 ├── instrumentos/
 │   ├── guion_entrevista.tex
 │   ├── cuestionario.tex
@@ -65,7 +67,7 @@ pdflatex -interaction=nonstopmode main.tex
 **Dependencias LaTeX:** `babel-spanish`, `geometry`, `array`, `tabularx`,
 `booktabs`, `colortbl`, `xcolor`, `enumitem`, `fancyhdr`, `lastpage`,
 `tcolorbox` (opción `most` y librería `breakable`), `csquotes`, `inputenc`,
-`fontenc`, `hyperref`, `biblatex` con estilo IEEE y el ejecutable `biber`.
+`fontenc`, `hyperref`, `multirow`, `biblatex` con estilo IEEE y el ejecutable `biber`.
 
 ## Verificación del PDF resultante
 
@@ -86,8 +88,8 @@ mostrar seis entradas IEEE. Los archivos auxiliares (`.aux`, `.bbl`, `.bcf`,
 
 ## Normas del repositorio
 
-- Compilar siempre el árbol fusionado de `PFC/E1/`, nunca las carpetas de reparto
-  de commits por integrante.
+- Compilar siempre el árbol completo de `PFC/E1/`, incluidas las secciones
+  incorporadas por `main.tex`, en vez de compilar archivos aislados.
 - Si se inserta una figura, el nombre y la extensión en `\includegraphics{}`
   deben coincidir exactamente con el archivo real subido.
 - No publicar datos personales, grabaciones, actas ni consentimientos firmados.
