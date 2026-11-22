@@ -115,6 +115,6 @@ autoría y evidencias. No sustituye la explicación que debe darse al docente.
 ## 6. Verificación técnica
 
 - Clon limpio del estado publicado compilado con
-  `pdflatex → biber → pdflatex ×2`.
+  `pdflatex → biber → pdflatex → pdflatex → pdflatex` (cuatro pasadas de `pdflatex`, la primera antes de `biber`), según `README.md`.
 - Resultado: 19 páginas, pie `Página N de 19`, 0 `??`, 0 `Overfull \hbox`,
   0 `Overfull \vbox` y 0 referencias sin resolver.
