@@ -8,7 +8,7 @@ Inteligencia Artificial**, organización cliente: El Balcón Restaurant
 Corresponde al Paralelo B; la sigla `NRS` identifica al equipo por las iniciales
 de los apellidos Naranjo, Robinson y Sánchez.
 
-**URL del repositorio:** https://github.com/Roselyn15/ISR-401-NRS
+**URL del repositorio:** https://github.com/Roselyn15/ISR401-NRS
 
 ## Integrantes y roles
 
