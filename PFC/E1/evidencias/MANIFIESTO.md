@@ -102,13 +102,21 @@ contiene nombre, firma y cargo. EV-02 se registró con la fecha y hora reales
 del contacto (2026-11-18, 1:20 pm, medio digital, respondió la administradora
 `AD-01`); el PDF se diligenció el 21/11 con base en esa información y se guardó
 en la carpeta privada `@uteq.edu.ec`, sin publicar nombres ni datos de
-contacto.
+contacto. En consecuencia, EV-02 **no es un acta simultánea**: el PDF privado
+se generó y diligenció el 21/11 a partir de la información reportada sobre el
+contacto del 18/11, y su huella es la de ese PDF generado, no la de un registro
+original recibido.
 En EV-03 a EV-06 la duración se tomó de los videos EV-10 a EV-13. Las fechas
 son las informadas por el equipo: `ENTR-01` del 18/11, `ENTR-02` del 19/11,
 `ENTR-04` del 20/11 y `ENTR-03` del 21/11. El manifiesto había consignado
 20/11 para las cuatro sesiones; ese dato se corrigió para `ENTR-01`,
 `ENTR-02` y `ENTR-03`. Los archivos de video se renombraron para que su nombre
-coincida con la fecha informada; su contenido y sus SHA-256 no cambiaron.
+coincida con la fecha informada; su contenido y sus SHA-256 no cambiaron. En
+el caso de `ENTR-03`, según lo informado por el equipo el registro inicial de
+20/11 se debió a un intento de grabación que no se guardó correctamente; por
+ello la sesión se repitió el 21/11 y el archivo conservado, con su duración y
+su SHA-256, corresponde a esa segunda sesión. No se conserva el archivo del
+intento fallido, por lo que no se registra huella para el 20/11.
 Nota: la **fecha original del archivo** de `ENTR-02`, según su nombre, es
 18/11/2026 a las 23:18. El equipo informó que la sesión fue el 19/11; esa es
 la fecha usada en el registro y la del archivo se conserva únicamente como
