@@ -30,9 +30,7 @@ autoría y evidencias. No sustituye la explicación que debe darse al docente.
   redacción y compilación local, y de Claude (Anthropic), Claude Sonnet 5.5 en
   aplicación web, del 19 al 21/11/2026, para revisión del repositorio contra la
   guía y la rúbrica, estimación orientativa de calificación y recomendaciones de
-  mejora. Claude no compiló el documento ni modificó archivos del repositorio;
-  las recomendaciones se aplicaron solo después de contrastarlas con los
-  archivos, el historial y la compilación local.
+  mejora. Claude no compiló el documento completo. El 21/11 también generó los códigos TikZ de las figuras de contexto y de la matriz poder–interés, correcciones de redacción y formato, la actualización de `REGISTRO_CONTACTO.md` y la hoja de una página para el SGA; esos archivos fueron aplicados por el equipo (commit `9f4f484`). Las recomendaciones y los archivos se aplicaron solo después de contrastarlos con los archivos, el historial y la compilación local.
 - El informe incluye la declaración individual de uso de IA de Anthony con
   herramienta (OpenCode, modelo `big-pickle`), versión (sesión del 21/11/2026),
   propósito y verificación. El texto debe ser revisado y suscrito por el propio
