@@ -10,7 +10,7 @@
 | Fecha real del primer contacto | 2026-11-18 (1:20 pm, informada por el equipo) |
 | Medio (presencial / correo institucional / llamada) | Digital |
 | Responsable de la organización (solo código de rol en el informe) | AD-01 |
-| Nombre real del responsable | PENDIENTE (solo en carpeta privada) |
+| Nombre real del responsable | Solo en carpeta privada `@uteq.edu.ec` |
 | Tema tratado | Presentación del proyecto TA-PFC-E1 y solicitud de aceptación |
 | Acuerdos | Designar interlocutor; agendar sesión S1 |
 | Nombre del archivo de respaldo en carpeta privada | `registro_primer_contacto_20261118.pdf` |

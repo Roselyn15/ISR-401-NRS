@@ -1,27 +1,47 @@
 \documentclass[crop,tikz,border=8pt]{standalone}
 \usepackage[utf8]{inputenc}
-\usetikzlibrary{positioning,calc}
+\usepackage[T1]{fontenc}
+\usetikzlibrary{arrows.meta}
 
 \begin{document}
-\begin{tikzpicture}[
-  q/.style={draw=black!70,rounded corners,align=center,text width=5.0cm,
-            minimum height=1.7cm,font=\scriptsize},
+\begin{tikzpicture}[y=0.72cm,
+  pt/.style={circle,draw=black!70,fill=white,inner sep=1.5pt,font=\scriptsize\bfseries},
+  qt/.style={font=\scriptsize\itshape,text=black!65},
   ax/.style={font=\scriptsize\bfseries}
 ]
-\node[q,fill=red!18] (q1) at (0,2.0) {ALTO PODER / ALTO INTER\'ES\\Gestionar de cerca\\
-{\scriptsize AD-01, GO-01}};
-\node[q,fill=orange!20] (q2) at (6.2,2.0) {ALTO PODER / BAJO INTER\'ES\\Mantener satisfecho\\
-{\scriptsize PRO-01}};
-\node[q,fill=green!18] (q3) at (0,-1.4) {BAJO PODER / ALTO INTER\'ES\\Mantener informado\\
-{\scriptsize COC-01, MES-01, CAJ-01, INV-01}};
-\node[q,fill=gray!16] (q4) at (6.2,-1.4) {BAJO PODER / BAJO INTER\'ES\\Monitorear\\
-{\scriptsize COC-02, DEL-01, CLI-01}};
+% Cuadrantes (x = interés, y = poder), umbral en 5
+\fill[orange!20] (0,5) rectangle (5,10);
+\fill[red!18]    (5,5) rectangle (10,10);
+\fill[gray!16]   (0,0) rectangle (5,5);
+\fill[green!18]  (5,0) rectangle (10,5);
+\draw[thick] (0,0) rectangle (10,10);
+\draw[thick] (5,0) -- (5,10);
+\draw[thick] (0,5) -- (10,5);
+\draw[-{Latex},thick] (0,0) -- (10.6,0);
+\draw[-{Latex},thick] (0,0) -- (0,10.6);
 
-\draw[thick] (-3.1,0) -- (9.3,0);
-\draw[thick] (3.1,-2.8) -- (3.1,3.4);
-\node[ax,left] at (-3.1,0) {Alto\\poder};
-\node[ax,left] at (-3.1,-1.4) {Bajo\\poder};
-\node[ax] at (0,3.25) {Alto inter\'es};
-\node[ax] at (6.2,3.25) {Bajo inter\'es};
+\node[qt] at (2.5,9.5) {Mantener satisfecho};
+\node[qt] at (7.5,9.5) {Gestionar de cerca};
+\node[qt] at (2.5,0.5) {Monitorear};
+\node[qt] at (7.5,0.5) {Mantener informado};
+
+% Roles según los niveles de la tabla de partes interesadas
+\node[pt] at (8.8,8.6) {AD-01};
+\node[pt] at (6.9,7.4) {GO-01};
+\node[pt] at (1.9,8.0) {PRO-01};
+\node[pt] at (8.4,3.9) {COC-01};
+\node[pt] at (6.5,3.6) {CAJ-01};
+\node[pt] at (9.0,2.3) {INV-01};
+\node[pt] at (7.4,1.8) {MES-01};
+\node[pt] at (3.3,2.6) {DEL-01};
+\node[pt] at (4.2,1.4) {CLI-01};
+\node[pt] at (2.0,1.8) {COC-02};
+
+\node[ax] at (5,-0.8) {Inter\'es en el proyecto $\rightarrow$};
+\node[ax,rotate=90] at (-0.9,5) {Poder de decisi\'on $\rightarrow$};
+\node[ax] at (0.6,-0.4) {Bajo};
+\node[ax] at (9.4,-0.4) {Alto};
+\node[ax,rotate=90] at (-0.4,0.6) {Bajo};
+\node[ax,rotate=90] at (-0.4,9.4) {Alto};
 \end{tikzpicture}
 \end{document}
