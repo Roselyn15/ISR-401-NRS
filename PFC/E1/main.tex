@@ -3,14 +3,13 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[spanish,es-tabla]{babel}
-\usepackage[a4paper,top=2.0cm,bottom=1.8cm,left=1.9cm,right=1.9cm,headheight=26pt]{geometry}
+\usepackage[a4paper,top=1.8cm,bottom=1.6cm,left=1.5cm,right=1.5cm,headheight=26pt]{geometry}
 \usepackage{array}
 \usepackage{tabularx}
 \usepackage{booktabs}
 \usepackage{colortbl}
 \usepackage{xcolor}
 \usepackage{enumitem}
-\setlist{topsep=2pt,partopsep=0pt,parsep=2pt}
 \usepackage{multirow}
 \usepackage{fancyhdr}
 \usepackage{lastpage}
@@ -40,8 +39,8 @@
 \renewcommand{\footrulewidth}{0.4pt}
 
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{3pt}
-\renewcommand{\arraystretch}{1.1}
+\setlength{\parskip}{2.5pt}
+\renewcommand{\arraystretch}{1.0}
 
 \begin{document}
 
@@ -112,17 +111,17 @@
 \input{secciones/03_plan_elicitacion}
 \input{secciones/04_gestion_proyecto}
 \input{secciones/05_trazabilidad}
+\input{secciones/06_analisis_critico}
 
 % ==============================================================================
 % SECCIONES 6 Y 7: CONTEXTO Y PLAN DE ELICITACION (Naranjo Alfonzo Anthony Alexander)
 % ==============================================================================
 
-\newpage
 \appendix
 \input{instrumentos/guion_entrevista}
 \input{instrumentos/cuestionario}
 \input{instrumentos/guia_observacion_taller}
+\enlargethispage{48pt}
 \printbibliography[title={Referencias}]
 
 \end{document}
-
