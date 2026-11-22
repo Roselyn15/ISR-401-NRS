@@ -86,14 +86,23 @@ medida de `ENTR-04` (00:14:43) es inferior al rango estimado de 15 a 30
 minutos de la guía; se consigna el valor real del archivo.
 
 No se inventa fecha, duración ni huella: hacerlo constituiría evidencia de
-campo fabricada. EV-01 se registró con la fecha impresa en la carta
-(2026-11-18) y la huella del PDF generado a partir de la copia recibida; el
-documento original permanece en la carpeta privada `@uteq.edu.ec` y no se
-publica porque contiene nombre, firma y cargo. EV-02 se registró con la fecha
-y hora reales del contacto (2026-11-18, 1:20 pm, medio digital, respondió la
-administradora `AD-01`) y la huella del PDF diligenciado; dicho PDF se
-diligenció el 21/11 con base en esa información y se guardó en la carpeta
-privada `@uteq.edu.ec`, sin publicar nombres ni datos de contacto.
+campo fabricada.
+
+**Aclaración de cotejo para EV-01 y EV-02.** Las huellas SHA-256 anotadas en
+la tabla para EV-01 y EV-02 corresponden a los archivos PDF **generados y
+diligenciados** que se custodian en la carpeta privada `@uteq.edu.ec` y cuyos
+nombres exactos figuran en la tabla. **No** corresponden a la copia original
+recibida de la carta (EV-01) ni al registro tal como se recibió (EV-02). Por
+ello, si se calcula `Get-FileHash -Algorithm SHA256` sobre el archivo original
+recibido, la huella **no coincidirá** con el manifiesto; para cotejar estos dos
+registros debe emplearse el PDF generado/diligenciado con el nombre de archivo
+de la tabla. EV-01 se registró con la fecha impresa en la carta (2026-11-18);
+el documento original permanece en la carpeta privada y no se publica porque
+contiene nombre, firma y cargo. EV-02 se registró con la fecha y hora reales
+del contacto (2026-11-18, 1:20 pm, medio digital, respondió la administradora
+`AD-01`); el PDF se diligenció el 21/11 con base en esa información y se guardó
+en la carpeta privada `@uteq.edu.ec`, sin publicar nombres ni datos de
+contacto.
 En EV-03 a EV-06 la duración se tomó de los videos EV-10 a EV-13. Las fechas
 son las informadas por el equipo: `ENTR-01` del 18/11, `ENTR-02` del 19/11,
 `ENTR-04` del 20/11 y `ENTR-03` del 21/11. El manifiesto había consignado
@@ -164,8 +173,9 @@ por eso el informe usa solo paráfrasis y no publica las transcripciones.
   conserva la estructura de ocho secciones pero está **sin firmar**, por lo que
   no es evidencia.
 - `MODELO_CONSENTIMIENTO_INFORMADO.md` — resumen en texto de la misma plantilla.
-- `REGISTRO_CONTACTO.md` — registro en blanco para diligenciar con el primer
-  contacto real.
+- `REGISTRO_CONTACTO.md` — registro diligenciado con el primer contacto real;
+  el campo `Acuerdos` remite a `Ver registro privado (EV-02)` y no publica
+  nombres ni datos de contacto.
 
 Nota: el PDF original `Consentimiento_Informado_SGR1.pdf` menciona
 «El Balcón Restaurant» y el repositorio `SGR_SPA2627_IR`; por eso no se sube
