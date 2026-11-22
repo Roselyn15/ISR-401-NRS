@@ -20,13 +20,13 @@ note right of Q2
 end note
 note right of Q3
   COC-01 Jefe de cocina
+  MES-01 Mesero
   CAJ-01 Cajero
   INV-01 Inventario
-  MES-01 Mesero
-  DEL-01 Repartidor
-  CLI-01 Cliente
 end note
 note right of Q4
-  Sin roles asignados en E1
+  COC-02 Personal de cocina
+  DEL-01 Repartidor
+  CLI-01 Cliente
 end note
 @enduml
