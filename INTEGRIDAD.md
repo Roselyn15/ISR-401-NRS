@@ -26,8 +26,13 @@ autoría y evidencias. No sustituye la explicación que debe darse al docente.
 - Como consecuencia, el orden de fechas de autor no coincide con el orden
   topológico de los commits. No se realizará otra reescritura para disimularlo
   ni para trasladar la responsabilidad a otros integrantes.
-- El informe declara el uso de OpenCode (`big-pickle`) y de Claude (Claude
-  Sonnet 5.5), con fechas del 19 al 21/11/2026, propósito y verificación.
+- El informe declara el uso de OpenCode (`big-pickle`) para revisión de
+  redacción y compilación local, y de Claude (Anthropic), Claude Sonnet 5.5 en
+  aplicación web, del 19 al 21/11/2026, para revisión del repositorio contra la
+  guía y la rúbrica, estimación orientativa de calificación y recomendaciones de
+  mejora. Claude no compiló el documento ni modificó archivos del repositorio;
+  las recomendaciones se aplicaron solo después de contrastarlas con los
+  archivos, el historial y la compilación local.
 - El informe incluye la declaración individual de uso de IA de Anthony con
   herramienta (OpenCode, modelo `big-pickle`), versión (sesión del 21/11/2026),
   propósito y verificación. El texto debe ser revisado y suscrito por el propio
