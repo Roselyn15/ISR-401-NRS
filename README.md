@@ -1,4 +1,4 @@
-# Repositorio ISR-401 — TA-PFC-E1
+# Repositorio ISR401 — TA-PFC-E1
 
 Proyecto Fin de Curso: **Sistema de Gestión para Restaurante con Módulo de
 Inteligencia Artificial**, organización cliente: El Balcón Restaurant
